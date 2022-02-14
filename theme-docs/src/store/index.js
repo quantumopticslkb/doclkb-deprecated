@@ -8,7 +8,7 @@ export const state = () => ({
   settings: {
     title: 'Nuxt Content Docs',
     url: '',
-    defaultDir: 'docs',
+    defaultDir: '',
     defaultBranch: '',
     filled: false
   }

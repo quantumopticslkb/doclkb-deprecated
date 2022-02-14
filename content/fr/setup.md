@@ -10,7 +10,7 @@ Vos details
 
 ## Titre de type 2
 
-Et votre code
+Et votre code ici
 
 <code-group>
   <code-block label="Code 1" active>

@@ -2,7 +2,7 @@ import theme from './theme-docs'
 
 export default theme({
   docs: {
-    primaryColor: '#E24F55'
+    primaryColor: '#638eca'
   },
   loading: { color: '#00CD81' },
   i18n: {

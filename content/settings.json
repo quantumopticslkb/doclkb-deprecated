@@ -2,8 +2,8 @@
   "title": "Nuxt Content",
   "url": "",
   "logo": {
-    "light": "/LKB_Logo.png",
-    "dark": "/logo-dark.svg"
+    "light": "/logo-lkb-light.svg",
+    "dark": "/logo-lkb-dark.svg"
   },
   "github": "quentinglorieux/doc1lkb",
   "twitter": "@nuxt_js"

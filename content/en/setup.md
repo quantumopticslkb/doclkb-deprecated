@@ -30,15 +30,17 @@ type your code here
   </code-block>
 </code-group>
 
-Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
+Then, add `modules` to Tangui's code
 
-```js[nuxt.config.js]
+```js[tangui.config.js]
 {
   modules: [
-    '@nuxtjs/xxx'
+    '@tangui/xxx'
   ],
   xxx: {
     // Options
   }
 }
 ```
+<alert type="warning"> Be careful with your code here ! <br>
+Add comment otherwise Quentin will be mad</alert>

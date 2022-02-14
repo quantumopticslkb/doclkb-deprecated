@@ -32,10 +32,10 @@ type your code here
 
 Ajouter la suite ainsi
 
-```js[nuxt.config.js]
+```js[ttangui.config.js]
 {
   modules: [
-    '@nuxtjs/xxx'
+    '@tangui/xxx'
   ],
   xxx: {
     // Options

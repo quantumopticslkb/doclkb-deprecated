@@ -1,0 +1,10 @@
+{
+  "title": "Nuxt Content",
+  "url": "",
+  "logo": {
+    "light": "/LKB_Logo.png",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "quentinglorieux/doc1lkb",
+  "twitter": "@nuxt_js"
+}

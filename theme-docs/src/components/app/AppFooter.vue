@@ -6,7 +6,7 @@
       <div class="flex items-center space-x-4">
         <!-- <AppLangSwitcher />
         <AppColorSwitcher /> -->
-        <p>Our Url is: {{ $config.baseURL}}</p>
+        <p>Our link is: {{ $config.baseURL}}</p>
          <p>Our API is: {{ $config.apiSecret}}</p>
         
       </div>

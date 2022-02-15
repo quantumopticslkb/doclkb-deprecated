@@ -1,10 +1,9 @@
 {
   "title": "LKB documentation",
-  "url": "",
+  "url": "https://docu-15b.vercel.app/",
   "logo": {
     "light": "/logo-lkb-light.svg",
     "dark": "/logo-lkb-dark.svg"
   },
-  "github": "quentinglorieux/doclkb",
-  "twitter": "@nuxt_js"
+  "github": "quantumopticslkb/doclkb"
 }

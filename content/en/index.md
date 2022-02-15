@@ -1,6 +1,6 @@
 ---
-title: Introduction
-description: 'Description here'
+title: Home Page
+description: 'Quantum Optics group documentation'
 position: 1
 category: ''
 features:

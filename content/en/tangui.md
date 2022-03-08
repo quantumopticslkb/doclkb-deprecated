@@ -3,6 +3,7 @@ title: Defect
 description: 'Lab book of Tangui about defect experiments'
 position: 2
 category: Rubidium Lab
+---
 
 # Defect
 

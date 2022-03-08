@@ -1,8 +1,8 @@
 ---
-title: Defect
-description: 'Lab book of Tangui about defect experiments'
-position: 2
-category: Rubidium Lab
+title: Test Q
+description: 'short description'
+position: 3
+category: Test Lab
 
 # Defect
 

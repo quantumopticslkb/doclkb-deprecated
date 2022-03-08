@@ -4,7 +4,7 @@ description: 'Quantum Optics group documentation'
 position: 1
 category: ''
 features:
-  - Nano Lab
+  - Nano Lab 1
   - Polariton Lab
   - Rubidium Lab
 ---

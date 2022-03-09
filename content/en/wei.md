@@ -6,30 +6,24 @@ category: Rubidium Lab
 ---
 
 # Turbulence
-
+## Experiment description
   This charper aims at introducing the turbulence  experiment details.
   > Citation 
-   1.**Experimental Setup**
-
-   2.**Experimental theory**
-
-   3.**Expected results**
-## Recap of what I did up until this point 18/02/22
-
-So far I replicated Guillaume's setup ![setup](tangui/images/defect_guillaume.PNG)
-
-I added a BS after the first PBS and after the second to allow for both co and counter propagation and to monitor the phase of the fluid at the output.
-
+   1. **Experimental Setup**
+         bala bala
+   2. **Experimental theory**
+        bala bala
+   3. **Expected results**
+        bala bala
+## Turbulence gain measurement
+  Use the code to control the piezo devices  to chenge the position pf probe beam.
 
 ## Problems should be solved 
+   
+   How to avoid the air fluctuance?
 
 
-## Titre 2
-
-Lorem ipsum dolor sit amet vivamus diam senectus tempus netus.
-
-Aenean volutpat curabitur magna eleifend sed senectus est diam nunc in quisque.
-
-Dapibus congue ultricies praesent ultrices facilisis ac lacinia vulputate lectus arcu nibh molestie.
-
-Vulputate magna praesent suspendisse lacus dolore in elit sapien suspendisse.
+## Task list
+- [x] For each point we move randomly a little the piezo and get 10 maxima and average to have the real value (and avoid phase fluctuation)
+- [x] Measure power law as function of random noise added on the slm
+- 

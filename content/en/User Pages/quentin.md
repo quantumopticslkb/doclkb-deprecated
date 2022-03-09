@@ -1,5 +1,5 @@
 ---
-title: Test Q
+title: Test Q inside folder
 description: 'short description'
 position: 3
 category: Test Lab

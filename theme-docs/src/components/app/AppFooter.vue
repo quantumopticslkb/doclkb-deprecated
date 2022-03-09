@@ -6,9 +6,9 @@
       <div class="flex items-center space-x-4">
         <!-- <AppLangSwitcher />
         <AppColorSwitcher /> -->
-        <p>Our link is: {{ $config.baseURL}}</p>
-         <p>Our API is: {{ $config.apiSecret}}</p>
-        
+        <!-- <p>Our link is: {{ $config.baseURL}}</p> -->
+         <!-- <p>Our API is: {{ $config.apiSecret}}</p> -->
+        Quantum Optics LKB - Documentation @2022
       </div>
     </div>
   </footer>

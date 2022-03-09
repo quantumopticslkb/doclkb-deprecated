@@ -4,6 +4,7 @@ export default theme({
   docs: {
     primaryColor: '#638eca'
   },
+  components: true,
   loading: { color: '#00CD81' },
   i18n: {
     locales: () => [{

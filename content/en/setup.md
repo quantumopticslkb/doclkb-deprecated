@@ -24,7 +24,7 @@ type your code here
 
   ```python
   your python code there
-  for i = 1 to n
+  for i = 1 to n 
   ```
 
   </code-block>

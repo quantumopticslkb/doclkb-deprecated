@@ -11,7 +11,12 @@ category: Test Lab
 
 ## Recap of what I did up until this point 18/02/22
 
-So far I replicated Guillaume's setup ![setup](~/assets/tangui/tangui/defect_guillaume.PNG)
+So far I replicated Guillaume's setup :
+<article-image
+  src="tangui/defect_guillaume.PNG"
+  alt="defect_guillaume"
+></article-image>
+
 
 I added a BS after the first PBS and after the second to allow for both co and counter propagation and to monitor the phase of the fluid at the output.
 

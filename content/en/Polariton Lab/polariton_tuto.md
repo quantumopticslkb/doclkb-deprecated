@@ -39,7 +39,8 @@ category: Polariton Lab
 <alert type="success">Useful to eliminate the vibrations due to the motorized circulation. The pressure in the dewar should be at least equal to 4mbar in order to feed the helium circulation</alert>
     1. Once the temperature in the cryostat is stabilized, switch off the motorized circulation
     2. Wait again for the temperature stabilization
-    3. Close progressively the regulation valve until the temperature icrease again
+    3. Close progressively the regulation valve until the temperature icreases again
+    4. If needed, cut the Pascal pump
 ---
 
 

@@ -2,9 +2,8 @@
 title: Useful tools
 description: 'Summary of all the tools available for the team'
 position: 1
-category: Tools
+category: TUTORIALS
 ---
-# Tools
 
 ## Introduction:
 Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them.

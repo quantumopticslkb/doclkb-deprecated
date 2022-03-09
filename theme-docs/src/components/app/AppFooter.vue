@@ -8,7 +8,7 @@
         <AppColorSwitcher /> -->
         <!-- <p>Our link is: {{ $config.baseURL}}</p> -->
          <!-- <p>Our API is: {{ $config.apiSecret}}</p> -->
-        Quantum Optics LKB - Documentation @2022
+        Documentation - Quantum Optics LKB - 2022
       </div>
     </div>
   </footer>

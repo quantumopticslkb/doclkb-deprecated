@@ -5,14 +5,15 @@ position: 3
 category: Rubidium Lab
 ---
 
-# Turbuleence
+# Turbulence
 
   This charper aims at introducing the turbulence  experiment details.
-   **Experimental Setup**
+  > Citation 
+   1.**Experimental Setup**
 
-   **Experimental theory**
+   2.**Experimental theory**
 
-   **Expected results**
+   3.**Expected results**
 ## Recap of what I did up until this point 18/02/22
 
 So far I replicated Guillaume's setup ![setup](tangui/images/defect_guillaume.PNG)

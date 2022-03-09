@@ -42,7 +42,7 @@ On the VSCode GUI click on the github icon (second item in the top left corner) 
 
 ## Step 2 : create/modify a documentation file and add it to the doclkb page 
 
-Go on the repository your cloned on **Step 1** and create a file "myfilenam.md" (.md stands for the markdown language in which the documents of this page are written) or go on the document you want to modify.
+Go on the repository you cloned on **Step 1** and create a file "myfilename.md" (.md stands for the markdown language in which the documents of this page are written) or go on the document you want to modify.
 
 Write the content using markdown. If you want to have a graphical overview of what your modified file would look like you can download node (at least node v14) and then run a local server from the VSCode terminal :
 
@@ -93,6 +93,10 @@ If it's the first time you use VSCode with your github account it may ask you to
 
   ```bash
   git config --global user.name "FIRST_NAME LAST_NAME"
+  ```
+  </code-block>
+  <code-block label="Bash" active>
+  ```bash
   git config --global user.email "MY_NAME@example.com"
   ```
 

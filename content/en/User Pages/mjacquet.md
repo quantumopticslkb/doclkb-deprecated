@@ -1,17 +1,19 @@
 ---
-title: Test Tangui
-description: 'Test for Tangui'
+title: Maxime
+description: 'short description'
 position: 3
 category: Test Lab
 ---
 
 # Defect
 
+
+j'ai change un peu de texte
   This lab book aims at consigning everything I do about the defect experiment.
 
 ## Recap of what I did up until this point 18/02/22
 
-So far I replicated Guillaume's setup ![setup](~/assets/tangui/tangui/defect_guillaume.PNG)
+So far I replicated Guillaume's setup ![setup](tangui/images/defect_guillaume.PNG)
 
 I added a BS after the first PBS and after the second to allow for both co and counter propagation and to monitor the phase of the fluid at the output.
 

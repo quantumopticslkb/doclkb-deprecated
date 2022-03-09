@@ -1,19 +1,28 @@
 ---
-title: Test marianna
-description: 'short description'
+title: Test wei
+description: 'Experiment description on the turbulence'
 position: 3
-category: Test Lab
+category: Rubidium Lab
 ---
 
-# Defect
+# Turbulence
 
-  This lab book aims at consigning everything I do about the defect experiment.
+  This charper aims at introducing the turbulence  experiment details.
+  > Citation 
+   1.**Experimental Setup**
 
+   2.**Experimental theory**
+
+   3.**Expected results**
 ## Recap of what I did up until this point 18/02/22
 
 So far I replicated Guillaume's setup ![setup](tangui/images/defect_guillaume.PNG)
 
 I added a BS after the first PBS and after the second to allow for both co and counter propagation and to monitor the phase of the fluid at the output.
+
+
+## Problems should be solved 
+
 
 ## Titre 2
 

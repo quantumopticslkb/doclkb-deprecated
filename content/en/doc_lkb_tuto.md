@@ -1,5 +1,5 @@
 ---
-title: Write documentation tuto
+title: Write doc Tutorial
 description: 'Instructions to learn how to write a documentation file and share it to the whole team.'
 position: 1
 category: Tutorials
@@ -15,37 +15,48 @@ item:
 **Git installation on your computer**
 
 Linux based systems : 
- <code-block label="Bash" active>
+<code-block label="Bash" active>
 
-  ```bash
-  sudo apt install git
-  ```
+```bash
+sudo apt install git
+```
 
-  </code-block>
+</code-block>
 
 Windows Based systems :
 [git](https://git-scm.com/download/win)
 
 **Git Hub personnal account**
-Create a personnal account on git hub if you don't have one. 
-<alert type="warning">If you want to edit files on the Quantum Optics documentation you need to be invited by an owner. </alert>
+    Create a personnal account on git hub if you don't have one. 
+    <alert type="warning">If you want to edit files on the Quantum Optics documentation you need to be invited by an owner. </alert>
 
 **Download VSCode**
 
----
-# Step 1 : clone the github repository on your own workspace
+## Step 1 : clone the github repository on your own workspace
 
 Copy the repository [github](https://github.com/quantumopticslkb/doclkb.git) on your clipboard.
 
-On the VSCode GUI click on the github icon (secon item in the top left corner) and then click on Clone Repository and paste the link you just copied.
+On the VSCode GUI click on the github icon (second item in the top left corner) and then click on Clone Repository and paste the link you just copied.
 
-*Now you should see all the files of the team on your VSCode interface.*
+*Now you should see all the files of the team on your VSCode interface on the left part of the screen.*
 
-# Step 2 : create/modify a documentation file and add it to the doclkb page 
+## Step 2 : create/modify a documentation file and add it to the doclkb page 
 
 Go on the repository your cloned on **Step 1** and create a file "myfilenam.md" (.md stands for the markdown language in which the documents of this page are written) or go on the document you want to modify.
 
-Write the content using markdown. Once you're done with modifications you can commit the changes you made on the github repository of the team :
+Write the content using markdown. If you want to have a graphical overview of what your modified file would look like you can download node (at least node v14) and then run a local server from the VSCode terminal. In the working directory type the command line :
+
+ <code-block label="Bash" active>
+
+  ```bash
+  npm run dev
+  ```
+
+  </code-block>
+
+
+
+ Once you're done with modifications you can commit the changes you made on the github repository of the team :
     -Click on the github icon
     -Enter the message that goes with your commitment (for instance "first commit *username*)").
     -Click on commit next to SOURCE CONTROL title.

@@ -93,6 +93,10 @@ If it's the first time you use VSCode with your github account it may ask you to
 
   ```bash
   git config --global user.name "FIRST_NAME LAST_NAME"
+  ```
+  </code-block>
+  <code-block label="Bash" active>
+  ```bash
   git config --global user.email "MY_NAME@example.com"
   ```
 

@@ -2,7 +2,7 @@
 title: Useful tools
 description: 'Summary of all the tools available for the team'
 position: 1
-category: TUTORIALS
+category: Tutorials
 ---
 
 ## Introduction:
@@ -16,7 +16,7 @@ To be able to connect on the **EQ15B** server you have 2 solutions : be connecte
 
 ### Notion
 ##### [notion](https://www.notion.so/desktop/)
-It can be a very powerfull tool if you are an untidy person. **Notion** can be used as a digital lab book that everybody can follow.
+It can be a very powerfull tool if you are an untidy person. **Notion** can be used as a digital lab book that everybody can follow. Moreover, you will quickly realize the versatility of this tool, for example to write your to-do list or to backup your data (but beware of the 5 Mo).
 
 ### Github
 ##### [github](https://github.com/)
@@ -24,10 +24,10 @@ Github will be our best friend for code managing. Here everybody in the team sha
 
 ### Zotero
 ##### [zotero](https://www.zotero.org/)
-"I present you my best friend.." M. Jacquet.
+"I present you my best friend.." M. Jacquet.  
 Zotero is the database where all scientific articles of interest to us are listed and accessible. You are free to navigate inside it and find a lot of information (from previous team paper or other group).
 For all the different project (or maybe for your own interest) you can create a repository where you can store the literrature and get pdf. Also, it allows you to transfert any repository in **tex** to save you time on wrtiting the bibliography.
 
 ### Arxiv
 ##### [arxiv](https://arxiv.org/)
-This is the 
+This website gathers all the articles published or in the process of being published in the whole world (as long as their authors have put them on it). It is a simple way to consult articles, reviews or books. This site also allows you to get the reference of these articles in tex format or even better to put them in zotero :)

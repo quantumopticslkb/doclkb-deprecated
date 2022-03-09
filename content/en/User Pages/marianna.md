@@ -1,7 +1,7 @@
 ---
-title: Test Marianna
+title: g2 experiment
 description: 'short description'
-position: 3
+position: 1
 category: Nano lab 
 ---
 

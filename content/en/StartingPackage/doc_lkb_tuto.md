@@ -1,7 +1,7 @@
 ---
 title: Write doc Tutorial
 description: 'Instructions to learn how to write a documentation file and share it to the whole team.'
-position: 1
+position: 0
 category: Tutorials
 item: 
   - Item1

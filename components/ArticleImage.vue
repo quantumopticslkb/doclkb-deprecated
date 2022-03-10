@@ -38,8 +38,12 @@ export default {
     },
     cssProps2() {
       if (this.center)
-      { return  {'--margin': 'auto'} 
+      { return  {
+        '--margin': 'auto', 
+        '--image-size': this.size + "%"
+        }
       }
+      return  { '--image-size': this.size + "%"} 
     },
   },
 

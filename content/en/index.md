@@ -13,9 +13,6 @@ features:
 <img src="/preview-dark.png" class="dark-img" width="1280" height="640" alt=""/> -->
 <p class="flex items-center">With a nice light and dark mode:&nbsp;<app-color-switcher class="inline-flex ml-2"></app-color-switcher></p>
 
-<article-image src="logoHouches.jpg" alt="logo les Houches" size="20" :center="true"></article-image>
-
-Link example: [arxiv](http://arxiv.org).
 
 <alert type="success">
 

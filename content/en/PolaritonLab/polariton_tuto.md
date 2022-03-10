@@ -33,10 +33,10 @@ category: Polariton Lab
     2. Launch the motorized circulation and open the flow regulation valve to its maximum
     3. Slightly raise the helium rod in the dewar
         <alert type="warning">Adjust the dewar position to reduce the pressure in the cryostats if it is greater than 3x10^-3mbar</alert>
-<alert type="success">The cryostat temperature should fall to 3.8K in 5 minutes</alert>
+    <alert type="success">The cryostat temperature should fall to 3.8K in 5 minutes</alert>
 
-3. **Self-sustained helium circulation**
-<alert type="success">Useful to eliminate the vibrations due to the motorized circulation. The pressure in the dewar should be at least equal to 4mbar in order to feed the helium circulation</alert>
+4. **Self-sustained helium circulation**
+    <alert type="success">Useful to eliminate the vibrations due to the motorized circulation. The pressure in the dewar should be at least equal to 4mbar in order to feed the helium circulation</alert>
     1. Once the temperature in the cryostat is stabilized, switch off the motorized circulation
     2. Wait again for the temperature stabilization
     3. Close progressively the regulation valve until the temperature icreases again

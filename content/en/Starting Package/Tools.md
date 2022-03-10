@@ -7,7 +7,7 @@ category: Tutorials
 
 ## Introduction:
 Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them. Remember, if you have a problem with any of these tools, please **read the documentation**. We kindly attached links to the documentation of all these tools for this very reason.
-<article-image src="tools/keep-calm-RTFM.jpg" alt="RTFM" size="100" :center="true"></article-image>
+<article-image src="tools/keep-calm-RTFM.jpg" alt="RTFM" size="50" :center="true"></article-image>
 
 ### Mattermost
 ##### [mattermost](https://mattermost.com/)

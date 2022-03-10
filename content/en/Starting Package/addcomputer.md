@@ -3,11 +3,7 @@ title: Adding a computer to the LKB network
 description: 'This document describes the procedure to add a computer to the LKB network'
 position: 3
 category: Elements
-items:
-  - Item1
-  - Item2
-  - Item3
----
+
 # Adding a computer to the LKB network
 To add a computer to the network, you need to open a ticket with the IT services. To this end, [write them an email](mailto:support@lkb.upmc.fr).
 

@@ -1,8 +1,9 @@
 ---
-title: Polariton room experiment tutos
+title: Polariton room experiments tutos
 description: ''
 position: 3
 category: Polariton Lab
+menuTitle: Experimental tutos
 ---
 
 # Open-flow cryostat cooling procedure

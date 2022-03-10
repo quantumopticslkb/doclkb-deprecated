@@ -12,7 +12,7 @@ Here you will find informations you need to know about the different tools used 
 ### Mattermost
 ##### [mattermost](https://mattermost.com/)
 Mattermost is our social network. It will allows you to talk with the other team member, share your data or planified your task.
-To be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have acces to it please contact support@lkb.upmc.fr).
+To be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).
 
 ### Notion
 ##### [Notion](https://www.notion.so/desktop/)
@@ -24,6 +24,7 @@ Github will be our best friend for code managing. Here everybody in the team sha
 You need to ask a permanent staff member to add your GitHub account to the Quantum-Optics-LKB *organization* in order to gain access to the team's repositories.\
 When you put code on GitHub, you share it with the rest of the team. This should encourage you to **document very thoroughly** your projects such that everyone can use your code without spending weeks reverse-engineering it.\
 The canonical way we suggest you document your code (a part from in code comments made such as docstrings etc ...) is to include a `README.md` file in your repository. GitHub suggests you this by default. Many examples can be found on the teams GitHub such as the [Piezo](https://github.com/Quantum-Optics-LKB/Piezo) repo.\
+<alert type="warning">**YOU MUST DOCUMENT AND COMMENT ALL YOUR CODES, ALWAYS**</alert>
 *But how does GitHub work ?*\
 [Git](https://en.wikipedia.org/wiki/Git) is the underlying program that handles code version control. It was initially developped by Linus Torvalds to handle the growing number of developpers on the Linux kernel. It is meant to allow a decentralized way to handle contributions to a code base, and to be able to keep track of changes.\
 [GitHub](https://en.wikipedia.org/wiki/GitHub) on the other hand is a cloud based storage solution for your code, that integrates Git in order to handle version control.\
@@ -56,7 +57,11 @@ You can then check that everything went well by looking at the timeline pane :
 ##### [Zotero](https://www.zotero.org/)
 "I present you my best friend.." M. Jacquet.  
 Zotero is the database where all scientific articles of interest to us are listed and accessible. You are free to navigate inside it and find a lot of information (from previous team paper or other group).
-For all the different project (or maybe for your own interest) you can create a repository where you can store the literrature and get pdf. Also, it allows you to transfert any repository in **tex** to save you time on wrtiting the bibliography.
+For every project you can create a folder where you can store the relevant literature and get pdf files of the articles. Also, it allows you to transfer any repository in **TeX** to save time on writing a bibliography.\
+You can find a tutorial to install it on the [Zotero](https://www.zotero.org/support/installation) web page.\
+The other crucial tool for Zotero is the browser [connector](https://www.zotero.org/download/connectors) that allows you to easily sync the paper you are reading in your browser to your Zotero library.
+In order to save time, accumulate knowledge and not panic when you will write your PhD thesis :
+<alert type="warning">**KEEP AN ORGANIZED AND THOROUGH LIBRARY**</alert>
 
 ### ArXiv
 ##### [arXiv](https://arxiv.org/)

@@ -37,7 +37,7 @@ We use a non collimated LED lamp at 400 nm to excite the sample in order to have
 
 ### Bleaching video acquisition 
 
-### Blueshift measurement 
+### Blueshift measurements
 
 ### g2 measurement 
 

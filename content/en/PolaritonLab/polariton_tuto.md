@@ -1,9 +1,8 @@
 ---
-title: Polariton room experiments tutos
+title: Polariton room experiment tutos
 description: ''
 position: 3
 category: Polariton Lab
-menuTitle: Experimental tutos
 ---
 
 # Open-flow cryostat cooling procedure
@@ -51,13 +50,7 @@ menuTitle: Experimental tutos
 | Cavity name | Description | Resonance energy |
 | ------ | ----------- | ----------- | 
 
-## Closed circuit cryostat cooling procedure
+# Close circuit cryostat cooling procedure
 
-In the polariton Lab room we also use a closed cycle cryostat made by MyCryoFirm. The advantage of the closed cycle is that we don't need to get Helium every week and that once the cryostat is cold and at vacuum it can stay cold for weeks. On the other hands this brings several complication and constraints on the way we arrange the optical table around the cryostat. This turorial aim at giving a quick presentation of the cryostat and explaining what are the procedures to know to use it from optical alignment to expected cooling performance.
+# 
 
-### Optical alignment
-
-*Once the cryostat is closed we don't have access to the optics that are inside. We thus, use piezo-electric transducers to move the each optic along the dimensions of space. Inside the cryostat there are basically two optics :  
-    -A condenser to focus the light on the sample  
-    -A microscope objective to make the imagery of the sample
-Each one is mounted on a 3-axis motor which is designed to be very precisely movable and tolerate vacuum. We list below the procedure to follow in order to make the optical alignement of the optics inside the cryostat 

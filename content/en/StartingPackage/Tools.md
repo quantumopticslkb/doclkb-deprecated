@@ -9,15 +9,32 @@ category: Tutorials
 Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them. Remember, if you have a problem with any of these tools, please **read the documentation**. We kindly attached links to the documentation of all these tools for this very reason.
 <article-image src="tools/keep-calm-RTFM.jpg" alt="RTFM" size="50" :center="true"></article-image>
 
+## Bibliography and communication
 ### Mattermost
 ##### [mattermost](https://mattermost.com/)
 Mattermost is our social network. It will allows you to talk with the other team member, share your data or planified your task.
-To be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).
+To be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).\
+Currently there are two servers used by the team : 
 
 ### Notion
 ##### [Notion](https://www.notion.so/desktop/)
 It can be a very powerfull tool if you are an untidy person. **Notion** can be used as a digital lab book that everybody can follow. Moreover, you will quickly realize the versatility of this tool, for example to write your to-do list or to backup your data (but beware of the 5 Mo).
 
+### Zotero
+##### [Zotero](https://www.zotero.org/)
+"I present you my best friend.." M. Jacquet.  
+Zotero is the database where all scientific articles of interest to us are listed and accessible. You are free to navigate inside it and find a lot of information (from previous team paper or other group).
+For every project you can create a folder where you can store the relevant literature and get pdf files of the articles. Also, it allows you to transfer any repository in **TeX** to save time on writing a bibliography.\
+You can find a tutorial to install it on the [Zotero](https://www.zotero.org/support/installation) web page.\
+The other crucial tool for Zotero is the browser [connector](https://www.zotero.org/download/connectors) that allows you to easily sync the paper you are reading in your browser to your Zotero library.
+In order to save time, accumulate knowledge and not panic when you will write your PhD thesis :
+<alert type="warning">**KEEP AN ORGANIZED AND THOROUGH LIBRARY**</alert>
+
+### ArXiv
+##### [arXiv](https://arxiv.org/)
+This website gathers all the articles published or in the process of being published in the whole world (as long as their authors have put them on it). It is a simple way to consult articles, reviews or books. This site also allows you to get the reference of these articles in tex format or even better to put them in zotero :)
+
+## Programming tools
 ### Github
 ##### [Github](https://github.com/)
 Github will be our best friend for code managing. Here everybody in the team share their code and get feedback from others. Also it will allows you to save your code and have backup (just in case).\
@@ -53,19 +70,33 @@ To finally send the changes on the remote side of the repository (on GitHub), we
 You can then check that everything went well by looking at the timeline pane :
 <article-image src="tools/vscode_transit_timeline.png" alt="Transit timeline" size="100" :center="true"></article-image>
 
-### Zotero
-##### [Zotero](https://www.zotero.org/)
-"I present you my best friend.." M. Jacquet.  
-Zotero is the database where all scientific articles of interest to us are listed and accessible. You are free to navigate inside it and find a lot of information (from previous team paper or other group).
-For every project you can create a folder where you can store the relevant literature and get pdf files of the articles. Also, it allows you to transfer any repository in **TeX** to save time on writing a bibliography.\
-You can find a tutorial to install it on the [Zotero](https://www.zotero.org/support/installation) web page.\
-The other crucial tool for Zotero is the browser [connector](https://www.zotero.org/download/connectors) that allows you to easily sync the paper you are reading in your browser to your Zotero library.
-In order to save time, accumulate knowledge and not panic when you will write your PhD thesis :
-<alert type="warning">**KEEP AN ORGANIZED AND THOROUGH LIBRARY**</alert>
+### VS Code
+##### [VSCode](https://code.visualstudio.com/)
+The world's most used code editor : not for nothing. In thi editor you will be able to run any language you want but also write your papers in Latex or your lab book in Markdown. A list of mandatory extensions :
+- autoDocstring : for Python
+- Jupyter
+- Pylance
+- Julia
+- LaTex Workshop
+- Markdown All in One
+- markdownlint
 
-### ArXiv
-##### [arXiv](https://arxiv.org/)
-This website gathers all the articles published or in the process of being published in the whole world (as long as their authors have put them on it). It is a simple way to consult articles, reviews or books. This site also allows you to get the reference of these articles in tex format or even better to put them in zotero :)
+Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
+We strongly encourage you to activate the autoformatting on save. This means that VS Code will automatically make your code prettier when you save your file (access settings  by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd> and then search "Format on save"). You can then choose a format provider if you're looking for specific rules.
+
+### SSH
+##### [ssh : Linux](https://www.ssh.com/academy/ssh/command)
+##### [ssh : Windows](https://www.putty.org/)
+
+SSH is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
+The easiest way to use ssh is to setup a passwordless connection by setting up an RSA ssh key. This is easily done following [this](https://www.ssh.com/academy/ssh/copy-id) tutorial. \
+On Linux, you might not even need or want a passwordless setup as you can just "ssh" to **EQ15B** from "Other locations" tab in the file explorer by entering `ssh://login@patriot.lkb.upmc.fr/partages/EQ15B/LEON-15B` in the orange rectangle below:
+
+<article-image src="tools/nautilus_ssh.png" alt="SSH in Nautilus" size="100" :center="true"></article-image>
+
+On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows) tutorial to mount the drive in your file explorer.\
+<alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\
+So if you want to have access wherever, mount Patriot and not Leon.
 
 ### Python
 ##### [Python](https://www.anaconda.com/)
@@ -97,31 +128,3 @@ A very nice JIT-compiled langage that is gaining a lot of popularity in the scie
 ### CUDA
 ##### [CUDA](https://developer.nvidia.com/cuda-toolkit)
 CUDA is a variant of C++ used to do computations on Nvidia GPU's. It is very useful if you have a Nvidia GPU on your computer to massively speed up FFT calculations (that occur a lot in optics simulation, NLSE simulations) in conjuction with [CuPy](https://cupy.dev/).
-
-### VS Code
-##### [VSCode](https://code.visualstudio.com/)
-The world's most used code editor : not for nothing. In thi editor you will be able to run any language you want but also write your papers in Latex or your lab book in Markdown. A list of mandatory extensions :
-- autoDocstring : for Python
-- Jupyter
-- Pylance
-- Julia
-- LaTex Workshop
-- Markdown All in One
-- markdownlint
-
-Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
-We strongly encourage you to activate the autoformatting on save. This means that VS Code will automatically make your code prettier when you save your file (access settings  by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd> and then search "Format on save"). You can then choose a format provider if you're looking for specific rules.
-
-### SSH
-##### [ssh : Linux](https://www.ssh.com/academy/ssh/command)
-##### [ssh : Windows](https://www.putty.org/)
-
-SSH is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
-The easiest way to use ssh is to setup a passwordless connection by setting up an RSA ssh key. This is easily done following [this](https://www.ssh.com/academy/ssh/copy-id) tutorial. \
-On Linux, you might not even need or want a passwordless setup as you can just "ssh" to **EQ15B** from "Other locations" tab in the file explorer by entering `ssh://login@patriot.lkb.upmc.fr/partages/EQ15B/LEON-15B` in the orange rectangle below:
-
-<article-image src="tools/nautilus_ssh.png" alt="SSH in Nautilus" size="100" :center="true"></article-image>
-
-On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows) tutorial to mount the drive in your file explorer.\
-<alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\
-So if you want to have access wherever, mount Patriot and not Leon.

@@ -1,35 +1,21 @@
 ---
-title: Turbulence
-description: 'Experiment description on the turbulence'
+title: The super manip 
+description: 'Setup control and device control'
 position: 3
 category: Rubidium Lab
 ---
 
-# Turbulence
-## Experiment description
-  This charper aims at introducing the turbulence  experiment details.
-  > Citation 
-   1. **Experimental Setup**
-         bala bala
-   2. **Experimental theory**
-        bala bala
-   3. **Expected results**
-        bala bala
-## Turbulence gain measurement
-   *Experimental theory*
-   <alert type="warning">Don't abtain lots of data and then average them.</alert>
-   <alert type="danger">Don't make the power too high to avoid damage the SLM.</alert>
-  Use the code to control the piezo devices  to chenge the position pf probe beam.
+## Introduction
+This setup was built with the idea of being able to perform just about any fluid of light experiment.It is very visual and generally gives a clear picture of the physical phenomena being studied.  
+It is quite quick to learn but requires some knowledge of how to control the electronic and optical devices.  
+After that it will be possible, thanks to our SLM, to do many different experiments very quickly.  
 
-## Problems should be solved 
-   
-   How to avoid the air fluctuance?
+## Laser control
 
-## Task list
-- [x] For each point we move randomly a little the piezo and get 10 maxima and average to have the real value (and avoid phase fluctuation)
-- [x] Measure power law as function of random noise added on the slm
+### Power 
 
-| Position of the probe beam | Power of the conjugate  |Power of the probe| Temperature| Gain| 
-| ---------------------------| ----------------------- |----------------- |----------- |------|
-| 800 | 2 |5           | 133            | 1         | 
+### Frequency
+afg
 
+### Shape
+slm, imaging, 

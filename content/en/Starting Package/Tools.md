@@ -54,7 +54,7 @@ You can then check that everything went well by looking at the timeline pane :
 
 ### Zotero
 ##### [Zotero](https://www.zotero.org/)
-"I present you my best friend.." M. Jacquet.  
+>"I present you my best friend.." M. Jacquet.  
 Zotero is the database where all scientific articles of interest to us are listed and accessible. You are free to navigate inside it and find a lot of information (from previous team paper or other group).
 For all the different project (or maybe for your own interest) you can create a repository where you can store the literrature and get pdf. Also, it allows you to transfert any repository in **tex** to save you time on wrtiting the bibliography.
 

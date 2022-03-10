@@ -14,9 +14,6 @@ features:
 <p class="flex items-center">With a nice light and dark mode:&nbsp;<app-color-switcher class="inline-flex ml-2"></app-color-switcher></p>
 
 
-
-Link example: [arxiv](http://arxiv.org).
-
 <alert type="success">
 
 The LKB quantum optics doc starts here

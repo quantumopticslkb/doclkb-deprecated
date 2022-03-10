@@ -1,11 +1,11 @@
 ---
 title: Data organisation
 description: 'The acurate way to sort your data'
-position: 4
+position: 0
 category: Tutorials
 ---
 
-## Introduction:
+## Introduction
 The team has access to a server, LEON, allowing us to store all our data as well as any file. This is probably the most important tool of the team.  
 First you need to follow the tutorial to have acces to the LKB network: <NuxtLink to="/Starting Package/Tools"> Usefool tools </NuxtLink>.  
 It is very important to master it in order to facilitate the transfer of knowledge and to work efficiently.  

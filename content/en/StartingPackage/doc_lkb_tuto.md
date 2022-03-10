@@ -30,7 +30,7 @@ Windows Based systems :
     Create a personnal account on git hub if you don't have one. 
     <alert type="warning">If you want to edit files on the Quantum Optics documentation you need to be invited by an owner. </alert>
 
-**Download VSCode**
+**Download [VSCode](en/StartingPackage/Tools.md)**
 
 ## Step 1 : clone the github repository on your own workspace
 

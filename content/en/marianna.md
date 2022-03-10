@@ -1,7 +1,7 @@
 ---
-title: g2 experiment
+title: Test Marianna
 description: 'short description'
-position: 1
+position: 3
 category: Nano lab 
 ---
 
@@ -19,7 +19,7 @@ Open Spyder on the lab computer and run Experiment.guy, a 'Main Window' interfac
 
 #### Connection to the CCD camera 
 We use the CCD camera to locate and select the emitters or to make saturation measures and bleaching video.
-In the first case we control the CCD camera using the CCD camera's software, instead in the second case using python interface. 
+In the first case we control the CCD camera using the CCD camera's software, instead in the second case using the python interface. 
 To control the CCD camera via the software, on the 'Main Window' interface open the 'Devices' panel from the top bar and then remove 'Camera' from the list that appears on the right. 
 
 ### Wide-field microscopy 
@@ -37,15 +37,15 @@ We use a non collimated LED lamp at 400 nm to excite the sample in order to have
 
 ### Bleaching video acquisition 
 
-## Blueshift measurement 
+### Blueshift measurements
 
-## g2 measurement 
+### g2 measurement 
 
-## Polarization measurement 
+### Polarization measurement 
 
-# Deposition of the emitter on the nanofiber 
+## Deposition of the emitter on the nanofiber 
 
-# g2 experiment via nanofiber 
+## g2 experiment via nanofiber 
 
 
 

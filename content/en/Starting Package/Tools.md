@@ -6,8 +6,8 @@ category: Tutorials
 ---
 
 ## Introduction:
-Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them.
-The tools : **Mattermost, Notion, Github, Zotero, Arxiv, Overleaf, Mobaxterm, HAL, Orcid**
+Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them. Remember, if you have a problem with any of these tools, please **read the documentation**. We kindly attached links to the documentation of all these tools for this very reason.
+<article-image src="tools/keep-calm-RTFM.jpg" alt="RTFM" size="50" :center="true"></article-image>
 
 ### Mattermost
 ##### [mattermost](https://mattermost.com/)
@@ -21,7 +21,9 @@ It can be a very powerfull tool if you are an untidy person. **Notion** can be u
 ### Github
 ##### [Github](https://github.com/)
 Github will be our best friend for code managing. Here everybody in the team share their code and get feedback from others. Also it will allows you to save your code and have backup (just in case).\
-You need to ask a permanent staff member to add your GitHub account to the Quantum-Optics-LKB *organization* in order to gain access to the team's repositories.
+You need to ask a permanent staff member to add your GitHub account to the Quantum-Optics-LKB *organization* in order to gain access to the team's repositories.\
+When you put code on GitHub, you share it with the rest of the team. This should encourage you to **document very thoroughly** your projects such that everyone can use your code without spending weeks reverse-engineering it.\
+The canonical way we suggest you document your code (a part from in code comments made such as docstrings etc ...) is to include a `README.md` file in your repository. GitHub suggests you this by default. Many examples can be found on the teams GitHub such as the [Piezo](https://github.com/Quantum-Optics-LKB/Piezo) repo.
 
 ### Zotero
 ##### [Zotero](https://www.zotero.org/)
@@ -35,11 +37,26 @@ This website gathers all the articles published or in the process of being publi
 
 ### Python
 ##### [Python](https://www.anaconda.com/)
-The most used language in the team. Mandatory to interface with the lab's equipment. **YOU MUST INSTALL PYTHON THROUGH ANACONDA : PERIOD !**\
+The most used language in the team. Mandatory to interface with the lab's equipment. \
+<alert type="warning">**YOU MUST INSTALL PYTHON THROUGH ANACONDA : PERIOD !**</alert>
+
 Unless you need specific Python installs for a project and you *know exactly what you are doing*, this is the safest most complete Python install. \
-On **Linux**, it is more than recommanded to add the Python version of Anaconda to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages).\
+On **Linux**, it is more than recommanded to add the Python version of Anaconda to your `PATH` by running `conda init` at the end of the install (explained in the installer's messages). Once this is done, you should see an additional `(base)` in your command shell :
+```bash
+(base) user@computer:~$
+```
+This indicates that the `base` conda environment is activated.
+
 On **Windows**, this last step is **discouraged** ! Windows handle very differently Python installs, and you should not try to mess with it. Just do whatever the installer tells you to do ...\
-On **Mac**, it's your problem cowboy !
+You should then use "Anaconda prompt" if you need to install stuff with `pip` or `conda`. \
+On **Mac**, it's your problem cowboy !\
+The following packages are used widely in the group and you should install them as well through `pip` :
+- `opencv-python` (imports as `cv2`)
+- `pyfftw`
+- `cupy` (see CUDA section below)
+- `scikit-image`
+- `pyvisa` (for VISA communication with scopes and other instruments)
+- `pythonnet` (.NET interface)
 
 ### Julia
 ##### [Julia](https://julialang.org/)
@@ -59,3 +76,16 @@ The world's most used code editor : not for nothing. In thi editor you will be a
 - LaTex Workshop
 - Markdown All in One
 - markdownlint
+
+Most of these extensions do not need any settings, but if you wish to, you can access those in the "Extensions" tab on the left of VS Code.\
+We strongly encourage you to activate the autoformatting on save. This means that VS Code will automatically make your code prettier when you save your file (access settings  by pressing <kbd>Ctrl</kbd> + <kbd>,</kbd> and then search "Format on save"). You can then choose a format provider if you're looking for specific rules.
+
+### SSH
+##### [ssh : Linux](https://www.ssh.com/academy/ssh/command)
+##### [ssh : Windows](https://www.putty.org/)
+
+SSH is a protocol that computers use to communicate with one another. This is the protocol that you will use to connect to the shared server **LEON**  / shared folder **EQ15B**. \
+The easiest way to use ssh is to setup a passwordless connection by setting up an RSA ssh key. This is easily done following [this](https://www.ssh.com/academy/ssh/copy-id) tutorial. \
+On Linux, you might not even need or want a passwordless setup as you can just "ssh" to **EQ15B** from "Other locations" tab in the file explorer by entering `ssh://login@patriot.lkb.upmc.fr/partages/EQ15B/LEON-15B` in the orange rectangle below:
+
+<article-image src="tools/nautilus_ssh.png" alt="SSH in Nautilus" size="100" :center="true"></article-image>

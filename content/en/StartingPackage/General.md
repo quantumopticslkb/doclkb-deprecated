@@ -47,7 +47,7 @@ If it's a on site service without shipping label, fill the form ( <pdf-link src=
 
 **3**. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
 
-<article-image src="StartingPackage/general/Ordre_de_mission.png" alt="Ordre de mission" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/general/Ordre_de_mission.png" alt="Ordre de mission" size="80" :center="true"></article-image>
 
 Important infos to fill:
 
@@ -110,10 +110,6 @@ Important infos to fill:
 ## KABA key
 
 You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. When your key is ready you will have to go with an ID to the bottom of tower 65 ("Gestion de droits d'accès").\
-<<<<<<< HEAD
-Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port on one of the pillars that resets your KABA key.
-=======
 Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port.
 
 
->>>>>>> 2acf0124bd25cd125e97c4c60b3b15807fff2605

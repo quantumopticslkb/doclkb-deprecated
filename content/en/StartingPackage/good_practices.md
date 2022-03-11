@@ -1,7 +1,7 @@
 ---
 title: Good practices in the lab room.
 description: ''
-position: 3
+position: 1
 category: Polariton Lab
 menuTitle: Tutorials
 ---
@@ -12,21 +12,21 @@ In the lab rooms we use several lasers between 780nm and 860nm (NIR). These lase
 
 ### Turn on pump lasers.
 
-1. Turn the key on the "on" position and wait until the current seeking displayed on the screen of the pump laser controller stabilize around a value.
-2. Press the button power level 1. The power value displayed on the screen of the controller represent the optical power the laser should provide. You can change it by turning the potentiometer on the controller. Depending on the laser you're using (V10 or V18) make sure this power setting does not exceed the maximum output power of the laser. 
-3. Press the buton "shutter" to open the shutter. Now you should see green laser light outcoming the cavity.
+    1. Turn the key on the "on" position and wait until the current seeking displayed on the screen of the pump laser controller stabilize around a value.
+    2. Press the button power level 1. The power value displayed on the screen of the controller represent the optical power the laser should provide. You can change it by turning the potentiometer on the controller. Depending on the laser you're using (V10 or V18) make sure this power setting does not exceed the maximum output power of the laser.
+    3. Press the buton "shutter" to open the shutter. Now you should see green laser light outcoming the cavity.
 
 
 
 
 ### Turn off/Standby pump lasers.
 
-1. Make sure the power value displayed on the controler screen is not set to his maximum value. In this case, lower the power at least 2W under the maximum value.  
-2. Press the button power level 1 to stop the cavity from lasing.   
-3. Close the shutter.  
-4. Wait for the current displayed on the screen to decrease and stabilize and then turn the key on the "standby" position.
-5. Usually we let it in standby mode from one use to the other. If you want to turn it off completely, go in the menu and press the option "cool the vanadate".
-6. Wait untill the vandate temperature decrease from its high value to a the room temperature (a fast cooling of the vanadate could break the nonlinear crystal for the frequency doubling)
+    1. Make sure the power value displayed on the controler screen is not set to his maximum value. In this case, lower the power at least 2W under the maximum value.
+    2. Press the button power level 1 to stop the cavity from lasing.
+    3. Close the shutter.
+    4. Wait for the current displayed on the screen to decrease and stabilize and then turn the key on the "standby" position.
+    5. Usually we let it in standby mode from one use to the other. If you want to turn it off completely, go in the menu and press the option "cool the vanadate".
+    6. Wait untill the vandate temperature decrease from its high value to a the room temperature (a fast cooling of the vanadate could break the nonlinear crystal for the frequency doubling)
 
 <alert type="warning">
 Don't forget to turn off the pump lasers when you're done.

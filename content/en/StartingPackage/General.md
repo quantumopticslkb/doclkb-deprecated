@@ -55,22 +55,28 @@ After you received all of your order, **you need to quickly bring the shipping l
 
         -- Object of mission (Objet)
 
-        -- Departure time (Départ de Paris)
-            
+        -- Time (Départ de Paris): time you leave or arrive home
 
-        -- Transportation fees ()
+        -- Transportation fees (Moyen de transport)
             plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
             bus/metro/taxi tickets: Keep all the receipts for refunding
 
-        -- Registration fee
+        -- Registration fee (Frais d’inscription)
 
-        -- Meals
+        -- Meals 
 
-        -- Accomodation fee
+        -- Accomodation 
 
         -- Signature of Alberto / Quentin
 
-4. Give receipts and a list to secretary to claim for refunding
+4. Add on the Group Google Calendar:
+
+    Account: quantumoptics.lkb@gmail.com
+
+
+5. CNRS member: add the days off on https://agate.cnrs.fr/
+
+6. Give receipts and a list to secretary to claim for refunding
 <a href="/file.pdf"> link name </a>
 
 

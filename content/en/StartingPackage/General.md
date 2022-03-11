@@ -35,6 +35,8 @@ Then comes the tricky part ... You need to fill out every item in the file, tran
 
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
 
+If it's a on site service without shipping label, fill the form (<pdf-link src="Attestation_de_livraison_CNRS.pdf" label="Attestation de livraison CNRS" > </pdf-link>) and give it to secretary for paying the service.
+
 ## "Ordres de mission" / Missions
 
 ### Go to a conference / summer school:
@@ -55,14 +57,13 @@ Important infos to fill:
 
 - Object of mission (Objet)
 
-- Departure time (Départ de Paris)
-    
+- Departure and arrival time (Départ de Paris): This should be the time you leave or arrive home
 
-- Transportation fees ()
+- Transportation fees
     plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
     bus/metro/taxi tickets: Keep all the receipts for refunding
 
-- Registration fee
+- Registration fee (Frais d’inscription)
 
 - Meals
 
@@ -70,8 +71,15 @@ Important infos to fill:
 
 - Signature of Alberto / Quentin
 
-**4**. Give receipts and a list to secretary to claim for refunding
-<a href="/file.pdf"> link name </a>
+**4**. Add on the Group Google Calendar:
+
+    Account: quantumoptics.lkb@gmail.com
+
+
+**5**. CNRS member: add the days off on https://agate.cnrs.fr/
+
+**6**. Give receipts and a list to secretary to claim for refunding
+<pdf-link src="template_reimbursment.odt" label="Link for template" > </pdf-link>
 
 
 
@@ -101,3 +109,5 @@ Important infos to fill:
 
 You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. When your key is ready you will have to go with an ID to the bottom of tower 65 ("Gestion de droits d'accès").\
 Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port.
+
+

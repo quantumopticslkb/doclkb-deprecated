@@ -1,7 +1,7 @@
 ---
 title: Scattering / Transmission Measurements
 description: 'Test file for documentation repository'
-position: 1
+position: 2
 category: Nano lab
 ---
 ## Tutorial on how to prepare the tapered nanofibers to be mounted on the scattering / transmission optical characterization setup.

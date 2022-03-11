@@ -21,12 +21,12 @@ In the lab rooms we use several lasers between 780nm and 860nm (NIR). These lase
 
 ### Turn off/Standby pump lasers.
 
-    1. Make sure the power value displayed on the controler screen is not set to his maximum value. In this case, lower the power at least 2W under the maximum value.
-    2. Press the button power level 1 to stop the cavity from lasing.
-    3. Close the shutter.
-    4. Wait for the current displayed on the screen to decrease and stabilize and then turn the key on the "standby" position.
-    5. Usually we let it in standby mode from one use to the other. If you want to turn it off completely, go in the menu and press the option "cool the vanadate".
-    6. Wait untill the vandate temperature decrease from its high value to a the room temperature (a fast cooling of the vanadate could break the nonlinear crystal for the frequency doubling)
+1. Make sure the power value displayed on the controler screen is not set to his maximum value. In this case, lower the power at least 2W under the maximum value.
+2. Press the button power level 1 to stop the cavity from lasing.
+3. Close the shutter.
+4. Wait for the current displayed on the screen to decrease and stabilize and then turn the key on the "standby" position.
+5. Usually we let it in standby mode from one use to the other. If you want to turn it off completely, go in the menu and press the option "cool the vanadate".
+6. Wait untill the vandate temperature decrease from its high value to a the room temperature (a fast cooling of the vanadate could break the nonlinear crystal for the frequency doubling)
 
 <alert type="warning">
 Don't forget to turn off the pump lasers when you're done.

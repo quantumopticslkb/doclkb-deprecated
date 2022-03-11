@@ -1,5 +1,5 @@
 ---
-title: General
+title: Introduction
 description: 'Useful papers and tools'
 position: 2
 category: Rubidium Lab
@@ -137,22 +137,24 @@ All Thorlabs devices that can be controlled through Kinesis/APT can be controlle
 
 ##### Muquans
 
-The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
-IP: 192.168.1.107, Name: Shakhdag  
-IP: 192.168.1.108, Name: Kapaz  
-To control it we use a terminal that remotely drives the laser diode and the optical pump. Power control possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 3. 
+The lasers are connected via an Ethernet cable to the computer network. They are identified with IP addresses and named them with mountain names:  
+- IP: 192.168.1.107 / Name: Shakhdag  
+- IP: 192.168.1.108 / Name: Kapaz  
+Each laser is essentially a linux computer that you communicate to through tcp. \
+To open a connection to the laser, you need to connect to it using the PuTTy client, usually on Maxwell, but this can be done on any computer of the Rb lab.\
+Power control is possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 3. 
 
 
-<alert type="warning">Always turn on the diode before the pump or you will break the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
+<alert type="warning">Always turn on the diode before the amplifier or you will break the laser (and it is not cheap). Also, always switch off the amplifier before the diode.</alert>
 The code to turn on the diode is:
  ```bash
-  slm1780_tool Enable_Current_Laser_Diode <on or off>
+  slm1780_tool Enable_Current_Laser_Diode <on|off>
  ```  
-The code to turn on the pump is:
+The code to turn on the amplifier is:
  ```bash
   slm1780_tool edfa_set 1
  ```   
-The code to turn off the pump is:  
+The code to turn off the amplifier is:  
  ```bash
  slm1780_tool edfa_shutdown
  ```   

@@ -26,9 +26,12 @@ Follow these steps (in order) and enjoy !
 - [ ] Create a [Zotero account](/StartingPackage/Tools#zotero) and join the LKB group
 ### Learning about science 
 - [ ] Read the bibliography of your group
+    - [Nano](https://www.zotero.org/groups/4622968/quantumopticslkb/collections/IAUAIBQN)
+    - [Rb](https://www.zotero.org/groups/4622968/quantumopticslkb/collections/A6ZSVQFJ)
+    - [POL](https://www.zotero.org/groups/4622968/quantumopticslkb/collections/3G4A4BHI) 
 ### Going into the lab (finally)
-- [ ] Verify you know about laser safety
+- [ ] Verify you know about [laser safety](https://www.dgdr.cnrs.fr/sst/CNPS/guides/doc/lasers/Guide%20Risque%20lies%20aux%20lasers%20v11-2019.pdf)
 - [ ] Read the lab good practices 
 - [ ] Ask a PhD student to have a quick tour about the equipements
-- [ ] Learn how and WHERE to save your data
+- [ ] Learn how and WHERE to [save your data](/StartingPackage/Data_organisation)
 - [ ] Join the LabBook of your experiment (on Mattermost)

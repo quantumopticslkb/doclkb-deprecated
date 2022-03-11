@@ -7,15 +7,15 @@ category: Tutorials
 
 ### Admin
 - [ ] Go to the admin office and introduce yourself
-- [ ] Get a key
-- [ ] Get an office
+- [ ] Get a [key](/StartingPackage/General#kaba-key)
+- [ ] Get an office (complain to Quentin)
 
 ### IT
-- [ ] Get an email
-- [ ] Connect your computer to the LKB network
+- [ ] Get an [email](/StartingPackage/Computers_and_network#contact-the-lkb-it-support)
+- [ ] Connect your computer to the [LKB network](/StartingPackage/Computers_and_network#adding-a-computer-to-the-network)
 - [ ] Set up the VPN
-- [ ] Check you can join the server LEON
-- [ ] Install VS Code and Python (via Anaconda)
+- [ ] Check you can join the [server LEON](/StartingPackage/Computers_and_network#map-a-network-drive)
+- [ ] Install [VS Code](/StartingPackage/Tools#vs-code) and [Python (via Anaconda)](/StartingPackage/Tools#python)
 
 ### Accounts
 - [ ] Create a GitHub account and learn how to use it

@@ -47,6 +47,8 @@ If it's a on site service without shipping label, fill the form ( <pdf-link src=
 
 **3**. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
 
+<article-image src="StartingPackage/general/Ordre_de_mission.PNG" alt="Ordre de mission" size="100" :center="true"></article-image>
+
 Important infos to fill:
 
 - Credit/ Sources of funding (nom/n° de crédit)

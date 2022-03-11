@@ -44,3 +44,6 @@ The path is relative to the /content/en/ folder
 [Link Name](/Members/marianna)
 ```
 The path is relative to the /content/en/ folder
+
+
+<a href="/fig1.pdf" download=""> down qlink </a>

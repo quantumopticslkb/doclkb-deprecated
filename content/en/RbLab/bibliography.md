@@ -26,7 +26,7 @@ The idea you always need to keep in mind is that you are doing a **science exper
 
 ### Control
 
-#### Python code structure
+#### **Python code structure**
 For the code structure, we suggest that you write a class that should contain all of the methods you use to run your experiments. Here is a simple example :
 <code-block label="Python" active>
 
@@ -74,8 +74,13 @@ def setAFG_takepic(self, voltage: float, output: int = 1) -> np.ndarray:
     return frame
 ```
 </code-block>
+
 You can find more examples on the group's [GitHub](https://github.com/Quantum-Optics-LKB).
 
-#### A library for each instrument
+#### **A library for each instrument**
 
 You will hereafter find a list of Python libraries to control almost all of the equipment you will find in the lab.
+
+##### Cameras
+
+Hamamatsu : 

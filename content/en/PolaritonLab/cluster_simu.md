@@ -17,7 +17,7 @@ menuTitle: Cluster computation
 ## Bash file
     Execution of the code on Roland is controlled by a bash script (a recipe whose instructions are executed by the console/shell).
     A minimal working version of the bash script features the following:
-    <code-block label="Bash" active>
+
     ```bash
         #!/bin/bash
         #SBATCH -c 63
@@ -25,10 +25,10 @@ menuTitle: Cluster computation
         #SBATCH --mem=50000M
         #SBATCH --job-name=polariton
     ```
-    </code-block>
+
     which controls the number of threads (-c) used, the number of tasks to perform, the allocated physical memory (how much space the data may fill) and a job-name.
 
-    If you use the **Julia** language, you need to set and export the thread variable ```export JULIA_NUM_THREADS=64``` for your programme to use.
+    If you use the **Julia** language, you need to set and export the thread variable ```bash export JULIA_NUM_THREADS=64``` for your programme to use.
 
     Finally, you must instruct the shell to run your **Julia** programme:
 

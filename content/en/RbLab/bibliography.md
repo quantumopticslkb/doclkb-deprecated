@@ -7,7 +7,7 @@ category: Rubidium Lab
 ## Introduction
 To have a better understanding of propagating photon fluids in hot rubidium vapors the The tools and methods used to generate and characterise  are introduced. An important part is dedicated to presenting the method used to measure the vapor nonlinear refractive index. 
 
-## Bibliogrpahy
+## Bibliography
 
 A page to find relevant papers to understand what you do. All of the references (unless if otherwise stated) are available on [**Zotero**](/StartingPackage/Tools#zotero).
 
@@ -108,6 +108,8 @@ def setAFG_takepic(self, voltage: float, output: int = 1) -> np.ndarray:
 </code-block>
 
 You can find more examples on the group's [GitHub](https://github.com/Quantum-Optics-LKB).
+<alert type="warning">**EVERY CODE SHOULD BE COMMENTED TO THIS STANDARD**</alert>\
+(you are free to chose your docstring style though ...)
 
 #### **A library for each instrument**
 
@@ -118,6 +120,17 @@ You will hereafter find a list of Python libraries to control almost all of the 
 Hamamatsu : You need to go through the DCAM API. Here is a [repo](https://github.com/ZhuangLab/storm-control) that shows you how to do this. You then only have a `hamamatsu_camera.py` module and very easy commands.
 
 Point Grey : You need to install the [Spinnaker SDK](https://www.flir.eu/products/spinnaker-sdk/). Once in the FLIR dropbox, you need to also download the relevant `PySpin` package for your OS and Python version. You can then finally `pip install EasyPySpin` a super convenient little wrapper that allows to use FLIR cameras like any OpenCV capture device.
+
+##### Rigol Instruments
+
+For all Rigol Instruments (e.g AFG, oscilloscopes, spectrum analyzers etc...), we developped a [library](https://github.com/Quantum-Optics-LKB/RigolInterface) that uses PyVisa to communicate with these instruments.\
+If you find an instrument that does not fall in the three classes already implemented, you can easily expand it by using the list of SCPI commands for this specific instrument (the lists for the already implemented instruments are on the [repo](https://github.com/Quantum-Optics-LKB/RigolInterface/blob/main/DG2000_ProgrammingGuide_EN.pdf) for reference).
+
+##### Thorlabs Kinesis devices
+
+All Thorlabs devices that can be controlled through Kinesis/APT can be controlled with [this](https://github.com/Quantum-Optics-LKB/Piezo) library we wrote. The repo is extensively documented to make it possible to extend it with additional devices. 
+
+
 
 #### **muquans**
 

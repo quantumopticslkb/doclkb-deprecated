@@ -36,13 +36,14 @@ Then comes the tricky part ... You need to fill out every item in the file, tran
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
 
 ## "Ordres de mission" / Missions
+
 ### Go to a conference / summer school:
 
 1. Agreement from Alberto Bramati/ Quentin Glorieux
 
 2. Apply for the mission
 
-3. Fill "Ordre de mission" (take a paper version from secretary or download from this link: https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx)
+3. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
 
     Important infos to fill:
 
@@ -69,22 +70,22 @@ After you received all of your order, **you need to quickly bring the shipping l
 
 
 
-### Go on vacation:
+## Go on vacation:
 
 1. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Add on the Group Google Calender:
+2. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
     Password: exciton2000
 
 3. CNRS member: add the days off on https://agate.cnrs.fr/
 
-### Telework:
+## Telework:
 
 1. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Add on the Group Google Calender:
+2. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
     Password: exciton2000

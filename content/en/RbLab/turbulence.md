@@ -1,35 +1,73 @@
 ---
-title: Turbulence
-description: 'Experiment description on the turbulence'
+title: The table 1
+description: 'All you need to know about the manip 1'
 position: 2
 category: Rubidium Lab
 ---
 
-## Turbulence
-### Experiment description
-  This charper aims at introducing the turbulence  experiment details.
-  > Citation 
-   1. **Experimental Setup**
-         bala bala
-   2. **Experimental theory**
-        bala bala
-   3. **Expected results**
-        bala bala
-### Turbulence gain measurement
-   *Experimental theory*
-   <alert type="warning">Don't abtain lots of data and then average them.</alert>
-   <alert type="danger">Don't make the power too high to avoid damage the SLM.</alert>
-  Use the code to control the piezo devices  to chenge the position pf probe beam.
+## Introduction
+This setup has been designed to be as versatile as possible. The idea is to be able to perform different quantum hydrodynamics experiments as simply as possible. This allows you to quickly run a project and get data.
 
-### Problems should be solved 
-   
-   How to avoid the air fluctuance?
+## Control 
 
-### Task list
-- [x] For each point we move randomly a little the piezo and get 10 maxima and average to have the real value (and avoid phase fluctuation)
-- [x] Measure power law as function of random noise added on the slm
+To be able to use the experiment properly you need to have some basic knowledge about control (laser, imaging, ...).
+There are two ways to control the setup: with electronics and optics.
 
-| Position of the probe beam | Power of the conjugate  |Power of the probe| Temperature| Gain| 
-| ---------------------------| ----------------------- |----------------- |----------- |------|
-| 800 | 2 |5           | 133            | 1         | 
+### Devices 
 
+#### Laser
+Our laser is a muquans fiber laser that gives us 1 Watt on the output of the fiber coming on the optical table. It is called Shakdag.  
+To control it you should go their: <NuxtLink to="/RbLab/bibliography"> General </NuxtLink>.  
+To control it we use a terminal that remotely drives the laser diode and the optical pump.  
+<alert type="warning">Always turn on the diode before the pump or you will brick the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
+The code to turn on the diode is:
+ ```bash
+  slm1780_tool Enable_Current_Laser_Diode <on or off>
+  ```
+The code to turn on the pump is (you need to give a value between 0 and 2.5):
+ ```bash
+  slm1780_tool edfa_set 1
+  ``` 
+The code to turn off the pump is:  
+ ```bash
+  edfa_shutdown
+  ```
+
+  </code-block>
+
+#### AFG
+
+This is a device act as a function generator. This function generator is linked to the laser and allow us to control the frequency by modulating the laser diode current between -5V to +5V.  
+It's a good tools to give modulation to any device, for exemple an AOM.
+
+#### Temperature of the Rb cell
+
+The Rb cell is surrounded by resistors to which a current is applied to heat the medium. Controlling the current given to them is equivalent to controlling the temperature applied to the medium. To do this we simply use a current generator connected to the resistor.
+
+#### AOM
+
+On the probe arm we added an aom to be able to modulate it (contolled with the afg). It means that, for a given modulation we switch on and off the aom which will cause the probe to flash at this frequency modulation.
+
+#### Camera
+
+On the table we have two cameras to image the entry and exit of our environment. The one at the entrance is not very efficient, it is a cheapos thorlabs camera.  
+To control it, you have to use the software provided by thorlabs. The PCO camera is very powerful and allows us to have a very good image. We use the software provided also.  
+Both need to be plugged into a pc with an ultra fast usb port, otherwise it won't work.
+
+### Optics
+
+With the optical elements we have an easy control over the power of the laser and for the imaging process.
+
+#### Power
+
+To control the power we usually use half-wave blade followed by a polarized beam splitter.  
+One control the total power after the fiber, a second one control the ratio between the probe and the pump, and each of them has their own control too.
+
+#### Imaging
+
+For imaging we make telescopes with two lenses.
+
+## The previous project
+
+Quantum turbulence.  
+Superradiance.

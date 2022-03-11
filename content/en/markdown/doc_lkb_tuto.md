@@ -59,15 +59,7 @@ After having installed `npm` and `nodejs`, install all required packages in the 
   ```
 </code-block>
 
-**Warning** : You may have to update npm (see the output of the previous command) and update the nuxt install by running the following commands :
-
-<code-block label="Bash" active>
-
-  ```bash
-  sudo npm audit fix --force
-  ```
-</code-block>
-
+**Do not** run `sudo npm audit fix --force` ! It tends to break your install !\
 In the working directory type the command line :
 
 <code-block label="Bash" active>

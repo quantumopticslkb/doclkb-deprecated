@@ -2,7 +2,7 @@
 title: Components
 description: ''
 position: 10
-category: Markdown
+category: Doc tutorial
 items:
   - Item1
   - Item2

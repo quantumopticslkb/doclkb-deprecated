@@ -116,7 +116,9 @@ You will hereafter find a list of Python libraries to control almost all of the 
 
 ##### Cameras
 
-Hamamatsu :
+Hamamatsu : You need to go through the DCAM API. Here is a [repo](https://github.com/ZhuangLab/storm-control) that shows you how to do this. You then only have a `hamamatsu_camera.py` module and very easy commands.
+
+Point Grey : You need to install the [Spinnaker SDK](https://www.flir.eu/products/spinnaker-sdk/). Once in the FLIR dropbox, you need to also download the relevant `PySpin` package for your OS and Python version. You can then finally `pip install EasyPySpin` a super convenient little wrapper that allows to use FLIR cameras like any OpenCV capture device.
 
 #### **muquans**
 

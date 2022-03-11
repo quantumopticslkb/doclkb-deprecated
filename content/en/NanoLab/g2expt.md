@@ -11,25 +11,42 @@ category: Nano lab
 
 ### Set-up description 
 
-Here I will put soon the set-up description as reference for the next paragraph. 
+Soon here: the set-up description as reference for the next paragraph. 
 
 ### Launch the Spyder interface to control the set-up 
 
-Open Spyder on the lab computer and run Experiment.guy, a 'Main Window' interface will appair. 
+Open Spyder on the lab computer and run *Experiment.guy*; the *Main Window* interface will appair. 
 
 ### Connection to the CCD camera 
-We use the CCD camera to locate and select the emitters or to make saturation measures and bleaching video.
-In the first case we control the CCD camera using the software, instead in the second case using 'Experiment.guy'. 
+
+We use the CCD camera to:
+
+   1. locate and select the emitters 
+   2. make saturation measures and bleaching videos
+
+In the first case we control the CCD camera using the *HC ImageLive* camera's software, instead in the second case using the *Main Window* interface. At the beginning, the camera is controlled by default by *Main Window*. To control the CCD camera via *HC ImageLive*, open the *Device* panel from the interface's top bar and uncheck *Camera* from the list of devices on the right. 
 
 
 ### Wide-field microscopy 
 
-We use a non collimated LED lamp at 400 nm to excite the sample in order to have an overview of the all camera's frame and select one emitter. The LED power can be adjusted between 0 and 25W (0% - 100%) and we choose the LED power according to the nature of the emitters we are characterizing (i.e for perovskites we set the power at 2.5W (10%), for brighter emitters 5% can be enough). 
+We use a non collimated LED lamp to excite the sample in order to have an overview of the all camera's frame before selecting a single emitter to characterize. 
 
+The LED power can be adjusted between 0 and 25W (0% - 100%) and we choose the LED power according to the brightness of the emitters we are characterizing (i.e for perovskites we set the power at 2.5W (10%), for brighter emitters 5% can be enough). Then, the LED light is sent into the microscope.
 
+Soon here: an image of the wide field microscopy set-up 
 
+To illuminate the sample, you can choose the suitable filters rotating the LED filters' turret on the microscope. 
+
+<alert type="info">  On the microscope there are two filters' turrets and each one contains several filters as many   are the available light sources. In the bottom turret there are all the LED filters, (i.e. filters for LED@405 nm,  LED@532 nm...) and in the top turrets the laser filters (i.e. filters for laser@405nm, laser@532nm...). Each  poissible choise is well labeled on the microscope. </alert >
+
+Now, on the 'HC ImageLive' you can click on the 'Live' bottom and adjust the focal plane rotating slowly the microscope focusing handle, in order to see clearly all the emitters. 
+
+Soon here: image of wide-field microscopy frame
 
 ### Confocal microscopy 
+
+
+
 
 ### Spectra acquisition 
 

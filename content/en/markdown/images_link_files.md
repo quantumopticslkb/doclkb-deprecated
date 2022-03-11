@@ -1,11 +1,11 @@
 ---
-title: Images and Link
+title: Images, Link, Files
 description: 'Images and Link'
-category: Markdown
+category: Doc tutorial
 position: 10
 # version: 1.5
 fullscreen: false
-menuTitle: Images and Link
+menuTitle: Images, Link, Files
 ---
 
 ## Include an image
@@ -44,3 +44,17 @@ The path is relative to the /content/en/ folder
 [Link Name](/Members/marianna)
 ```
 The path is relative to the /content/en/ folder
+
+
+## Include a file to download
+
+<pdf-link src="PDFvide.pdf" label="My label" > </pdf-link>
+
+
+```md
+<pdf-link src="PDFvide.pdf" label="My label" > </pdf-link>
+```
+Put the file in the ```/assets/pdf/``` \
+The path is relative to the ```/assets/pdf/``` folder (even if its a .doc, .xls .whatever)
+
+

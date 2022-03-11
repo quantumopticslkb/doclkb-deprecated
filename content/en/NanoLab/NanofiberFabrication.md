@@ -1,17 +1,17 @@
 ---
 title: Nanofiber Fabrication
 description: 'Experiment notebook'
-position: 2
+position: 1
 category: Nano lab
 ---
 ## Nanofiber profile calculation
-<alert type="info"> In order to achieve lossless transmission, the profile of tapered optical nanofiber needs to meets adiabatic criterium. </alert>
+<alert type="info"> In order to achieve lossless transmission, the profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium*. </alert>
 
 ## Fabrication
 
  <alert type="info"> Tapered optical nanofiber is fabricated with "heat and pull" method. </alert>
 Producing optical nanofiber requires clean environment and careful fiber cleaning before pulling.
-Before the tapering of optical fiber starts, the plastic jacket needs to be removed over the distance separating the fiber clamps.
+Before the tapering of optical fiber starts, the polymeric jacket needs to be removed over the distance separating the fiber clamps.
 Any dusts from the environment fell on to the fiber, the remaining detritus of fiber jacket or grease on fingers left on the fiber will burn when it's brought to the flame and create some defects on the fiber surface during pulling.
 Therefore, the pulling system is installed in a box with air-flow.
 Clean room gloves (as opposed to standard chemistry protection gloves)

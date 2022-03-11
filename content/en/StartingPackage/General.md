@@ -47,13 +47,18 @@ After you received all of your order, **you need to quickly bring the shipping l
 
     Important infos to fill:
 
-        -- Credit/ Sources of funding
+        -- Credit/ Sources of funding (nom/n° de crédit)
 
-        -- Destination of mission
+        -- Your name (Nom - prénom)
 
-        -- Object of mission
+        -- Destination of mission (Lieu de la mission)
 
-        -- Transportation fees 
+        -- Object of mission (Objet)
+
+        -- Departure time (Départ de Paris)
+            
+
+        -- Transportation fees ()
             plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
             bus/metro/taxi tickets: Keep all the receipts for refunding
 
@@ -77,7 +82,7 @@ After you received all of your order, **you need to quickly bring the shipping l
 2. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
-    Password: exciton2000
+
 
 3. CNRS member: add the days off on https://agate.cnrs.fr/
 
@@ -88,8 +93,8 @@ After you received all of your order, **you need to quickly bring the shipping l
 2. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
-    Password: exciton2000
 
-3. CNRS member: add the days off on https://agate.cnrs.fr/
+
+3. CNRS member: add the days for telework on https://agate.cnrs.fr/
 
 

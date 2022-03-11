@@ -97,4 +97,7 @@ Important infos to fill:
 
 **3**. CNRS member: add the days for telework on https://agate.cnrs.fr/
 
+## KABA key
 
+You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. When your key is ready you will have to go with an ID to the bottom of tower 65 ("Gestion de droits d'accès").\
+Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port.

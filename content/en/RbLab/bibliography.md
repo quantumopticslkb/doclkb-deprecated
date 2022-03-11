@@ -62,6 +62,7 @@ The idea you always need to keep in mind is that you are doing a **science exper
 
 ### Control
 
+<<<<<<< HEAD
 #### muquans
 The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
 IP: 192.168.1.107, Name: Shakhdag  
@@ -84,7 +85,9 @@ The code to turn off the pump is:
  ```   
   </code-block>
 
-#### Python code structure
+=======
+#### **Python code structure**
+>>>>>>> 8bb56533bec7bec80047f6852119a09f065a9624
 For the code structure, we suggest that you write a class that should contain all of the methods you use to run your experiments. Here is a simple example :
 <code-block label="Python" active>
 
@@ -132,9 +135,17 @@ def setAFG_takepic(self, voltage: float, output: int = 1) -> np.ndarray:
     return frame
 ```
 </code-block>
+
 You can find more examples on the group's [GitHub](https://github.com/Quantum-Optics-LKB).
 
-#### A library for each instrument
+#### **A library for each instrument**
 
 You will hereafter find a list of Python libraries to control almost all of the equipment you will find in the lab.
+<<<<<<< HEAD
 >>>>>>> 390212ce1eb25809366eb5c3f909ad9396b418c6
+=======
+
+##### Cameras
+
+Hamamatsu : 
+>>>>>>> 8bb56533bec7bec80047f6852119a09f065a9624

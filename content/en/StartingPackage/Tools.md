@@ -12,9 +12,13 @@ Here you will find informations you need to know about the different tools used 
 ## Bibliography and communication
 ### Mattermost
 ##### [mattermost](https://mattermost.com/)
-Mattermost is our social network. It will allows you to talk with the other team member, share your data or planified your task.
-To be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).\
-Currently there are two servers used by the team : 
+Mattermost is our social network. It will allows you to talk with the other team member, share your data or planified your task.  
+The private server used by the team is: http://ultratrail.lkb.upmc.fr. But to be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).    
+Then your username will be the same as sogo, same for the password.  
+Also you can have acces to a comon LKB server: https://mattermost.lkb.upmc.fr.  
+In addition, this mattermost server allows us to use it as a lab book. Indeed Focalboard is the place where everyone can have their personal calendar and write their lab book.  
+It allows you to write down what you have or are going to do and frame your data with explanations. It is a very powerful and useful tool. The lab book should be your legacy for newcomers.  
+There is however an option to name notion on which mattermost has heavily plagiarized and which will be personal.
 
 ### Notion
 ##### [Notion](https://www.notion.so/desktop/)
@@ -29,6 +33,11 @@ You can find a tutorial to install it on the [Zotero](https://www.zotero.org/sup
 The other crucial tool for Zotero is the browser [connector](https://www.zotero.org/download/connectors) that allows you to easily sync the paper you are reading in your browser to your Zotero library.
 In order to save time, accumulate knowledge and not panic when you will write your PhD thesis :
 <alert type="warning">**KEEP AN ORGANIZED AND THOROUGH LIBRARY**</alert>
+
+### Google calendar
+
+This is the common calendar for the whole team. It is essential if you want to be aware of the team meetings and events (and incidentally not to get yelled at :).
+To join it, you need to contact a member of the team who will send you an invitation by mail. 
 
 ### ArXiv
 ##### [arXiv](https://arxiv.org/)

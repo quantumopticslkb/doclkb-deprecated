@@ -84,7 +84,7 @@ Important infos to fill:
 
 
 
-## Go on vacation:
+### Go on vacation:
 
 **1**. Agreement from Alberto Bramati/ Quentin Glorieux
 
@@ -95,7 +95,7 @@ Important infos to fill:
 
 **3**. CNRS member: add the days off on https://agate.cnrs.fr/
 
-## Telework:
+### Telework:
 
 **1**. Agreement from Alberto Bramati/ Quentin Glorieux
 

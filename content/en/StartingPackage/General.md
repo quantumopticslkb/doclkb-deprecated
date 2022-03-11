@@ -55,19 +55,6 @@ Important infos to fill:
 
 - Object of mission (Objet)
 
-<<<<<<< HEAD
-        -- Time (Départ de Paris): time you leave or arrive home
-
-        -- Transportation fees (Moyen de transport)
-            plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
-            bus/metro/taxi tickets: Keep all the receipts for refunding
-
-        -- Registration fee (Frais d’inscription)
-
-        -- Meals 
-
-        -- Accomodation 
-=======
 - Departure time (Départ de Paris)
     
 
@@ -80,22 +67,10 @@ Important infos to fill:
 - Meals
 
 - Accomodation fee
->>>>>>> b62e298f67a736ec539b13ebf87632152050bb01
 
 - Signature of Alberto / Quentin
 
-<<<<<<< HEAD
-4. Add on the Group Google Calendar:
-
-    Account: quantumoptics.lkb@gmail.com
-
-
-5. CNRS member: add the days off on https://agate.cnrs.fr/
-
-6. Give receipts and a list to secretary to claim for refunding
-=======
 **4**. Give receipts and a list to secretary to claim for refunding
->>>>>>> b62e298f67a736ec539b13ebf87632152050bb01
 <a href="/file.pdf"> link name </a>
 
 

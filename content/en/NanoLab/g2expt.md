@@ -37,7 +37,7 @@ Soon here: an image of the wide field microscopy set-up
 
 To illuminate the sample, you can choose the suitable filters rotating the LED filters' turret on the microscope. 
 
-<alert type="info">  On the microscope there are two filters' turrets and each one contains several filters as many are the available light sources. In the bottom turret there are all the LED filters, (i.e. filters for LED@405 nm, LED@532 nm...) and in the top turrets the laser filters (i.e. filters for laser@405nm, laser@532nm...). Each poissible choise is well labeled on the microscope. 
+<alert type="info">  On the microscope there are two filters' turrets and each one contains several filters as many   are the available light sources. In the bottom turret there are all the LED filters, (i.e. filters for LED@405 nm,  LED@532 nm...) and in the top turrets the laser filters (i.e. filters for laser@405nm, laser@532nm...). Each  poissible choise is well labeled on the microscope. </alert >
 
 Now, on the 'HC ImageLive' you can click on the 'Live' bottom and adjust the focal plane rotating slowly the microscope focusing handle, in order to see clearly all the emitters. 
 

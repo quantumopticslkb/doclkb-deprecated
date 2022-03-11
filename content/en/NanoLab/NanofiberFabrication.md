@@ -28,6 +28,8 @@ The center of the flame needs to be aligned with the fiber based on the focus pl
 The transmission is detected with a photodiode, as shown in Fig. \ref{fig:Fiber_tapering_system}, and recorded.
 The output signal is normalized to the initial laser power before pulling.
 
+<article-image src="NanoLab/image841.png" alt="Setup" size="80" :center="true"></article-image>
+
 <alert type="warning"> During the pulling, the hot air from the flame will slowly lift the nanofiber since the weight of the fiber region on top of the flame drops.
 It is critical because the distance between flame and the fiber becomes larger than the setting.
 The temperature of the fiber might not reach the softening point of silica.

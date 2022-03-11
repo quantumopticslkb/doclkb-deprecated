@@ -53,41 +53,12 @@ momentum $F = J+I $, lies in between $|J −I| and J +I$.
 ```
 ## General spirit of the experiments
 
-<<<<<<< HEAD
-### Control
-
-
-=======
 The idea you always need to keep in mind is that you are doing a **science experiment**. You need to be able to **control everything that you do**, and **know at every moment what are the relevant parameters** of your experiment. In that sense, we strongly suggest that all your experiment be controlled through a Python code that is on your computer (and of course kept up to date on the team's [GitHub](StartingPackage/Tools#github)). This will allow you to reproduce easily your results and encourage you to store your data systematically in an orderly fashion. The goal is very simple : anybody with your lab book should be able to replicate your setup. The easier this is to do, the stronger your results will be. Furthermore, this will help you to be much more systematical in your data acquisition (namely changing only one thing at a time).
 
 ### Control
 
-<<<<<<< HEAD
-#### muquans
-The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
-IP: 192.168.1.107, Name: Shakhdag  
-IP: 192.168.1.108, Name: Kapaz  
-To control it we use a terminal that remotely drives the laser diode and the optical pump. Power control possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 2.5 W. 
-
-
-<alert type="warning">Always turn on the diode before the pump or you will break the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
-The code to turn on the diode is:
- ```bash
-  slm1780_tool Enable_Current_Laser_Diode <on or off>
- ```  
-The code to turn on the pump is:
- ```bash
-  slm1780_tool edfa_set 1
- ```   
-The code to turn off the pump is:  
- ```bash
- slm1780_tool edfa_shutdown
- ```   
-  </code-block>
-
-=======
 #### **Python code structure**
->>>>>>> 8bb56533bec7bec80047f6852119a09f065a9624
+
 For the code structure, we suggest that you write a class that should contain all of the methods you use to run your experiments. Here is a simple example :
 <code-block label="Python" active>
 
@@ -141,11 +112,30 @@ You can find more examples on the group's [GitHub](https://github.com/Quantum-Op
 #### **A library for each instrument**
 
 You will hereafter find a list of Python libraries to control almost all of the equipment you will find in the lab.
-<<<<<<< HEAD
->>>>>>> 390212ce1eb25809366eb5c3f909ad9396b418c6
-=======
 
 ##### Cameras
 
-Hamamatsu : 
->>>>>>> 8bb56533bec7bec80047f6852119a09f065a9624
+Hamamatsu :
+
+#### **muquans**
+
+The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
+IP: 192.168.1.107, Name: Shakhdag  
+IP: 192.168.1.108, Name: Kapaz  
+To control it we use a terminal that remotely drives the laser diode and the optical pump. Power control possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 2.5 W. 
+
+
+<alert type="warning">Always turn on the diode before the pump or you will break the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
+The code to turn on the diode is:
+ ```bash
+  slm1780_tool Enable_Current_Laser_Diode <on or off>
+ ```  
+The code to turn on the pump is:
+ ```bash
+  slm1780_tool edfa_set 1
+ ```   
+The code to turn off the pump is:  
+ ```bash
+ slm1780_tool edfa_shutdown
+ ```   
+  </code-block>

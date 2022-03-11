@@ -35,7 +35,7 @@ Then comes the tricky part ... You need to fill out every item in the file, tran
 
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
 
-If it's a on site service without shipping label, fill the form (<pdf-link src="Attestation_de_livraison_CNRS.pdf" label="Attestation de livraison CNRS" > </pdf-link>) and give it to secretary for paying the service.
+If it's a on site service without shipping label, fill the form ( <pdf-link src="AttestationdelivraisonCNRS.pdf" label="Attestation de livraison CNRS" > </pdf-link> ) and give it to secretary for paying the service.
 
 ## "Ordres de mission" / Missions
 
@@ -79,7 +79,7 @@ Important infos to fill:
 **5**. CNRS member: add the days off on https://agate.cnrs.fr/
 
 **6**. Give receipts and a list to secretary to claim for refunding
-<pdf-link src="template_reimbursment.odt" label="Link for template" > </pdf-link>
+<pdf-link src="templatereimbursment.odt" label="Link for template" > </pdf-link>
 
 
 
@@ -108,6 +108,10 @@ Important infos to fill:
 ## KABA key
 
 You need to go to the administrative office and check with Laetitia Morel or David Noël. You will need to specify a "profile" of the key i.e which doors it will open. For this it is easiest to give the same profile as another older PhD student / Post doc. When your key is ready you will have to go with an ID to the bottom of tower 65 ("Gestion de droits d'accès").\
+<<<<<<< HEAD
+Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port on one of the pillars that resets your KABA key.
+=======
 Sometimes, the key might be a little buggy, in this case you might want to revive it by going to the magic KABA pillar in tower 23 first floor : there is a port.
 
 
+>>>>>>> 2acf0124bd25cd125e97c4c60b3b15807fff2605

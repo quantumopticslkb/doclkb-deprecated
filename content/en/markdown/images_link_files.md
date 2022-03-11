@@ -1,11 +1,11 @@
 ---
-title: Images and Link
+title: Images, Link, Files
 description: 'Images and Link'
-category: Markdown
+category: Doc tutorial
 position: 10
 # version: 1.5
 fullscreen: false
-menuTitle: Images and Link
+menuTitle: Images, Link, Files
 ---
 
 ## Include an image

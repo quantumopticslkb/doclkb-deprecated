@@ -10,8 +10,7 @@ category: Nano lab
 
 This document was written in February 2022. Its aim is to work as a step-by-step guide for the preparation of the nanofibers to be measured in the setup for transmission and scattering measurements in its February 2022 form. 
 
-<alert type="warning">For future users, **please check if the setup structure and any of the steps reported here are out-of-date at the moment you are reading this**. You can find a diagram of the Feb2022 optical setup in Figure ZZZZ.</alert>
-
+<alert type="warning">**Please check if the setup structure and any of the steps reported here are out-of-date at the moment you are reading this**. Scheme of the Feb2022 setup at the end of the tutorial. *TBA* </alert>
 
 ### Fiber Preparation
 
@@ -28,7 +27,7 @@ This document was written in February 2022. Its aim is to work as a step-by-step
 6. Take a small vial and fill it with **acetone**. Then, close the vial with a piece of Parafilm and cut a small opening, in order to insert the fiber later. Acetone can soften the external jacket of most of the silica fibers, making its removal easier.
 
 7. Insert the fiber into the hole cut into the Parafilm and submerge one end into the acetone. Wait for ~20 minutes for the jacket to be softened.
-8. Remove the jacket using the fiber stripping tool. Before doing this, with the help of a ruler, measure $\sim4.5$~cm from the edge of the sample holder towards the end of the fiber and remove the remaining jacket starting from there, as this length will be important for the next steps. <alert type='warning'>**This is one of the most high-risk steps of the entire procedure, before doing this on an important sample, try it on a *''dummy''* sample.**</alert>
+8. Remove the jacket using the fiber stripping tool. Before doing this, with the help of a ruler, measure ~4.5 cm from the edge of the sample holder towards the end of the fiber and remove the remaining jacket starting from there, as this length will be important for the next steps. <alert type='warning'>**This is one of the most high-risk steps of the entire procedure, before doing this on an important sample, try it on a *''dummy''* sample.**</alert>
 
 9. Repeat steps 7 and 8 for the other side of the fiber.
 10. Open the two clamps that block the fiber. <alert type='warning'>**Attention!** There is the possibility that the clamps could be sticked to the fiber, thus their opening could potentially break the fiber. To avoid this, use the tweezers to block the fiber in its position without touching it and just exert a slight pressure on it while carefully opening the clamps.</alert>

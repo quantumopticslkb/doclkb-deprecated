@@ -2,13 +2,14 @@
 title: Write documentation tutorial
 description: 'Instructions to learn how to write a documentation file and share it to the whole team.'
 position: 10
-category: Markdown
+category: Doc tutorial
+menuTitle: Collaborate to this doc
 ---
 
 ---
-# Prerequisites:
+## Prerequisites:
 
-**Git installation on your computer**
+### Git installation on your computer
 
 Linux based systems :
 <code-block label="Bash" active>
@@ -28,7 +29,7 @@ Windows Based systems :
 
 **Download [VSCode](/StartingPackage/Tools#vs-code)**
 
-## Step 1 : clone the github repository on your own workspace
+### Step 1 : clone the github repository on your own workspace
 
 Copy the repository [github](https://github.com/quantumopticslkb/doclkb.git) on your clipboard.
 
@@ -36,7 +37,7 @@ On the VSCode GUI click on the github icon (second item in the top left corner) 
 
 *Now you should see all the files of the team on your VSCode interface on the left part of the screen.*
 
-## Step 2 : create/modify a documentation file and add it to the doclkb page 
+### Step 2 : create/modify a documentation file and add it to the doclkb page 
 
 Go on the repository you cloned on **Step 1** and create a file "myfilename.md" (.md stands for the markdown language in which the documents of this page are written) or go on the document you want to modify.
 

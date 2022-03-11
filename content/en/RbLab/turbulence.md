@@ -7,6 +7,7 @@ category: Rubidium Lab
 
 ## Introduction
 This setup has been designed to be as versatile as possible. The idea is to be able to perform different quantum hydrodynamics experiments as simply as possible. This allows you to quickly run a project and get data.
+<article-image src="RbLab/Table1/table1.jpg" alt="setup" size="40" :center="true"></article-image>
 
 ## Control 
 
@@ -18,31 +19,18 @@ There are two ways to control the setup: with electronics and optics.
 #### Laser
 Our laser is a muquans fiber laser that gives us 1 Watt on the output of the fiber coming on the optical table. It is called Shakdag.  
 To control it you should go their: <NuxtLink to="/RbLab/bibliography"> General </NuxtLink>.  
-To control it we use a terminal that remotely drives the laser diode and the optical pump.  
-<alert type="warning">Always turn on the diode before the pump or you will brick the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
-The code to turn on the diode is:
- ```bash
-  slm1780_tool Enable_Current_Laser_Diode <on or off>
-  ```
-The code to turn on the pump is (you need to give a value between 0 and 2.5):
- ```bash
-  slm1780_tool edfa_set 1
-  ``` 
-The code to turn off the pump is:  
- ```bash
-  edfa_shutdown
-  ```
-
-  </code-block>
+<article-image src="RbLab/Table1/laser.jpg" alt="setup" size="40" :center="true"></article-image>
 
 #### AFG
 
 This is a device act as a function generator. This function generator is linked to the laser and allow us to control the frequency by modulating the laser diode current between -5V to +5V.  
 It's a good tools to give modulation to any device, for exemple an AOM.
+<article-image src="RbLab/Table1/afg.jpg" alt="setup" size="40" :center="true"></article-image>
 
 #### Temperature of the Rb cell
 
 The Rb cell is surrounded by resistors to which a current is applied to heat the medium. Controlling the current given to them is equivalent to controlling the temperature applied to the medium. To do this we simply use a current generator connected to the resistor.
+<article-image src="RbLab/Table1/temp.jpg" alt="setup" size="40" :center="true"></article-image>
 
 #### AOM
 

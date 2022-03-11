@@ -1,7 +1,7 @@
 ---
 title: Home Page
 description: 'Quantum Optics group documentation'
-position: 1
+position: 0
 category: ''
 features:
   - Nano Lab 1

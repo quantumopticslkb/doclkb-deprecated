@@ -1,12 +1,8 @@
 ---
 title: Write documentation tutorial
 description: 'Instructions to learn how to write a documentation file and share it to the whole team.'
-position: 0
-category: Tutorials
-item: 
-  - Item1
-  - Item2
-  - Item3
+position: 10
+category: Markdown
 ---
 
 ---

@@ -7,7 +7,7 @@ category: Polariton Lab
 
 # Experiment principle
 
-# Setup
+# Setup 1
 
 # Devices management 
 

@@ -43,7 +43,7 @@ Each laser of the lab room has is own driver that you need to turn on if you wan
 
 Any laser in the lab room is water-cooled by a chiller. If the cooling is not properly done the laser can stop working and eventually break. As a consequence you must make sure there is always **dry-water** in the chiller. Usually we refill it every week/two weeks. If you see a water leak coming out from the chiller immediately turn the laser off and fix the leak (enjoy).
 <alert type="warning">
-Only dry water can be used in the chiller.
+Dry water mixed with Acetone (10%) is mandatory for the the chiller.
 </alert>
 
 ## Polariton room specifities

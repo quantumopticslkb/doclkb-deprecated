@@ -1,11 +1,15 @@
 ---
 title: Nanofiber Fabrication
 description: 'Experiment notebook'
-position: 1
+position: 2
 category: Nano lab
 ---
 ## Nanofiber profile calculation
-<alert type="info"> In order to achieve lossless transmission, the profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium*. </alert>
+<alert type="info"> The profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium* so that the incoming modes will transit from a core-cladding waveguide to a core-vacuum waveguide losslessly. </alert>
+
+A tapered optical nanofiber includes three main regions: standard single mode fiber, fiber taper and nanofiber.
+The first step is to calculate the nanofiber diameter meeting the experimental requirements.
+
 
 ## Fabrication
 

@@ -19,7 +19,7 @@ These paper describe how to treat your system in second quantized formalism, usi
 ### Index measurement
 The strength of the photon-photon interaction ralated to the third-order susceptibility $chi^{(3)}$ which links to nonlinear refractive index n2.  Although methods have been proposed by other groups such as the z-scan and the ring image in the far field,  all these ways exist some limitations and disadvantages. So it would be important to find an easy and precise way to measure this index. Tangui and Murad proposed a method based on wavefront measurement using interferometric techniques. The general idea is to place the non-linear medium in one arm of an interferometer (typically a Mach–Zehnder interferometer) and use phase retrieval algorithm to reconstruct the accumulated phase from the interferogram. You will find more details in the [arxiv](https://arxiv.org/abs/2202.05764).
 ### Temperature measurement
-Temoperature is a key parameter controls not only the atoms velocity,  the filling and transit rates but transport length scales and the atomic density. Our basic idea is fitting the transmissioin spectrum of a low power beam pass through the vapour cell with the saturated absorption spectrum. I would recommend you to look at the Quentin Fontain's thesis to find more.
+Temoperature is a key parameter controls not only the atoms velocity,  the filling and transit rates but transport length scales and the atomic density. Our basic idea is to get the transmission spectrum of a low power beam to pass through the vapor and then fit with the saturated absorption spectrum.
 ### Atomic structure
 #### Fine structure − LS coupling
 The structure of the rubidium D-line arises from the coupling between the angular
@@ -51,6 +51,7 @@ momentum $F = J+I $, lies in between $|J −I| and J +I$.
 |      D1      |   5/2   |    1/2   |     2, 3    | 
 |      D2      |   5/2   |    3/2   |  1, 2, 3, 4 |
 ```
+I suggest you read [Rubidium 87 D Line Data](https://steck.us/alkalidata/rubidium87numbers.1.6.pdf).
 ## General spirit of the experiments
 
 The idea you always need to keep in mind is that you are doing a **science experiment**. You need to be able to **control everything that you do**, and **know at every moment what are the relevant parameters** of your experiment. In that sense, we strongly suggest that all your experiment be controlled through a Python code that is on your computer (and of course kept up to date on the team's [GitHub](StartingPackage/Tools#github)). This will allow you to reproduce easily your results and encourage you to store your data systematically in an orderly fashion. The goal is very simple : anybody with your lab book should be able to replicate your setup. The easier this is to do, the stronger your results will be. Furthermore, this will help you to be much more systematical in your data acquisition (namely changing only one thing at a time).
@@ -137,7 +138,7 @@ All Thorlabs devices that can be controlled through Kinesis/APT can be controlle
 The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
 IP: 192.168.1.107, Name: Shakhdag  
 IP: 192.168.1.108, Name: Kapaz  
-To control it we use a terminal that remotely drives the laser diode and the optical pump. Power control possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 2.5 W. 
+To control it we use a terminal that remotely drives the laser diode and the optical pump. Power control possible by setting the power of the Erbium Doped Fibre Amplifier (EDFA) to a value between 0 and 3. 
 
 
 <alert type="warning">Always turn on the diode before the pump or you will break the laser (and it is not cheap). Also, always switch off the pump before the diode.</alert>
@@ -154,3 +155,8 @@ The code to turn off the pump is:
  slm1780_tool edfa_shutdown
  ```   
   </code-block>
+
+#### **TA pro-Tapered Amplifier Laser System**
+
+The TA pro is a high power tunable diode laser product. It  can be operated via the digital control platform for example locking frequency intelligently.
+ 

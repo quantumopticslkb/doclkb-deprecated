@@ -41,10 +41,26 @@ category: Tutorials
 
 
 
-### Go to holidays:
+### Go on vacation:
 
 1. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Add the vacation period on the Group Google Calender
+2. Add on the Group Google Calender:
+
+    Account: quantumoptics.lkb@gmail.com
+    Password: exciton2000
+
+3. CNRS member: add the days off on https://agate.cnrs.fr/
+
+### Telework:
+
+1. Agreement from Alberto Bramati/ Quentin Glorieux
+
+2. Add on the Group Google Calender:
+
+    Account: quantumoptics.lkb@gmail.com
+    Password: exciton2000
+
+3. CNRS member: add the days off on https://agate.cnrs.fr/
 
 

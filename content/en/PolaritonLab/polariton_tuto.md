@@ -63,7 +63,19 @@ Online orders infos:
     4. If needed, cut the Pascal pump
 
 ---
+
 ### Open-flow cryostat warming up procedure
+1. Isolate the cryostat from the Turbo pump by closing ist inlet valve
+2. Open the dewar outlet valve 
+3. If not already done, switch off the motorized circulation
+4. Wait for the temperature to reach T>120K
+5. Click on the STOP button of the Turbo pump
+6. Wait for 0 rpm
+7. Remove the transfer cane cold finger from the cryostat
+8. Remove the transfer cane from the dewar (**put gloves**)
+9. Close the dewar inlet
+10. Unconnect the Jussieu input from the transfer cane
+11. Block the Jussieu input
 
 ### FAQ 
 - **The pressure in the dewar exceeds 0.5 mbar during the experiment**
@@ -88,6 +100,12 @@ Online orders infos:
 
 
 
-### Close circuit cryostat cooling procedure
+## Close circuit cryostat 
+
+### Vacuum pumping
+
+### Cooling & warming procedure
+
+### Piezo
  
 

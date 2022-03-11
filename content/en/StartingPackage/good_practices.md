@@ -35,12 +35,40 @@ In the lab rooms we use several lasers between 780nm and 860nm (NIR). These lase
 Don't forget to turn of the pump lasers when you're done.
 </alert>
 
-### Good use of the lasers
+### Monitoring the lasers
 
 To get the best performance of your laser you must make sure it is properly aligned. To do so, use a powermeter at the laser output and maximise the optical power by using the appropriate mirrors screws.
 
 A laser properly aligned should provide your the best optical output power and stability both in intensity and frequency. 
 Each laser of the lab room has is own driver that you need to turn on if you want to monitor your laser. 
+
+### Chiller 
+
+Any laser in the lab room is water-cooled by a chiller. If the cooling is not properly done the laser can stop working and eventually break. As a consequence you must make sure there is always **dry-water** in the chiller. Usually we refill it every week/two weeks. If you see a water leak coming out from the chiller immediately turn the laser off and fix the leak (enjoy).
+<alert type="warning">
+Only dry water can be used in the chiller.
+</alert>
+
+## Polariton room peculiarities.
+### Lasers
+
+Matisse : monitored localy from the computer with the software Matisse Commander  
+M2 : monitored through internet by entering the IP adress 192.168.1.213 in the searching bar (works only if your laptop is on the sub-network of the lab room)  
+### Spectrometer
+
+In the polariton lab room we use gratings spectrometer to make dispersion measurments. The principle scheme is presented just below.
+
+<article-image src="StartingPackage/tools/spectro_grating.png" alt="Transit folder" size="100" :center="true"></article-image>
+
+For a good use of the spectrometer the most important point is to make the Fourier Transform of your beam at the entry of the spectrometer exactly where the slit is located. Then the two parabolic mirrors inside the spectometer make the image of the reciprocal space on the output camera. As you can see on the scheme, a diffraction grating is placed just before the camera in order to spatially separate the photons of differents energies. This final grating can be changed to get different dispersive capacitiese. The smaller is the grating step the more it is dispersive.
+
+
+
+
+
+
+
+
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Good practices in the lab room.
 description: ''
-position: 1
+position: 3
 category: Polariton Lab
-menuTitle: Tutorials
+menuTitle: Good practice
 ---
 
 ## Lasers
@@ -12,9 +12,9 @@ In the lab rooms we use several lasers between 780nm and 860nm (NIR). These lase
 
 ### Turn on pump lasers.
 
-    1. Turn the key on the "on" position and wait until the current seeking displayed on the screen of the pump laser controller stabilize around a value.
-    2. Press the button power level 1. The power value displayed on the screen of the controller represent the optical power the laser should provide. You can change it by turning the potentiometer on the controller. Depending on the laser you're using (V10 or V18) make sure this power setting does not exceed the maximum output power of the laser.
-    3. Press the buton "shutter" to open the shutter. Now you should see green laser light outcoming the cavity.
+1. Turn the key on the "on" position and wait until the current seeking displayed on the screen of the pump laser controller stabilize around a value.
+2. Press the button power level 1. The power value displayed on the screen of the controller represent the optical power the laser should provide. You can change it by turning the potentiometer on the controller. Depending on the laser you're using (V10 or V18) make sure this power setting does not exceed the maximum output power of the laser.
+3. Press the buton "shutter" to open the shutter. Now you should see green laser light outcoming the cavity.
 
 
 

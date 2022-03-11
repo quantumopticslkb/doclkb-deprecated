@@ -7,7 +7,7 @@ category: Tutorials
 
 ## Introduction:
 Here you will find informations you need to know about the different tools used by the team to help you in your work. You can finds tutorials for each of them. Remember, if you have a problem with any of these tools, please **read the documentation**. We kindly attached links to the documentation of all these tools for this very reason.
-<article-image src="tools/keep-calm-RTFM.jpg" alt="RTFM" size="50" :center="true"></article-image>
+<article-image src="StartingPackage/tools/keep-calm-RTFM.jpg" alt="RTFM" size="50" :center="true"></article-image>
 
 ## Bibliography and communication
 ### Mattermost
@@ -56,19 +56,19 @@ git clone https://github.com/Quantum-Optics-LKB/Transit.git
 ```
 This will copy a folder named `Transit` with hidden `.git` / `.gitignore` folders within it that essentially list all changes and what files to ignore. \
 Now, let's say you want to add to the `Transit` codebase, the simplest way to go about doing this is to open the folder in VSCode :
-<article-image src="tools/vscode_transit.png" alt="Transit folder" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/vscode_transit.png" alt="Transit folder" size="100" :center="true"></article-image>
 
 Let's open the documentation file `README.md` to edit as indicated by the orange rectangle. We edit it and once we are happy with the change, we **stage** the changes as follows :
-<article-image src="tools/vscode_transit_stage.png" alt="Transit stage" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/vscode_transit_stage.png" alt="Transit stage" size="100" :center="true"></article-image>
 
 We can then **commit** the changes (without forgetting to enter a name for the commit) :
-<article-image src="tools/vscode_transit_commit.png" alt="Transit commit" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/vscode_transit_commit.png" alt="Transit commit" size="100" :center="true"></article-image>
 
 To finally send the changes on the remote side of the repository (on GitHub), we **push** the changes :
-<article-image src="tools/vscode_transit_push.png" alt="Transit push" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/vscode_transit_push.png" alt="Transit push" size="100" :center="true"></article-image>
 
 You can then check that everything went well by looking at the timeline pane :
-<article-image src="tools/vscode_transit_timeline.png" alt="Transit timeline" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/vscode_transit_timeline.png" alt="Transit timeline" size="100" :center="true"></article-image>
 
 ### VS Code
 ##### [VSCode](https://code.visualstudio.com/)
@@ -92,7 +92,7 @@ SSH is a protocol that computers use to communicate with one another. This is th
 The easiest way to use ssh is to setup a passwordless connection by setting up an RSA ssh key. This is easily done following [this](https://www.ssh.com/academy/ssh/copy-id) tutorial. \
 On Linux, you might not even need or want a passwordless setup as you can just "ssh" to **EQ15B** from "Other locations" tab in the file explorer by entering `ssh://login@patriot.lkb.upmc.fr/partages/EQ15B/LEON-15B` in the orange rectangle below:
 
-<article-image src="tools/nautilus_ssh.png" alt="SSH in Nautilus" size="100" :center="true"></article-image>
+<article-image src="StartingPackage/tools/nautilus_ssh.png" alt="SSH in Nautilus" size="100" :center="true"></article-image>
 
 On Windows, you can install `sshfs-win` and `Winfsp` following [this](http://makerlab.cs.hku.hk/index.php/en/mapping-network-drive-over-ssh-in-windows) tutorial to mount the drive in your file explorer.\
 <alert type="warning">**ONLY PATRIOT IS ACCESSIBLE ON THE OUTSIDE**</alert>\

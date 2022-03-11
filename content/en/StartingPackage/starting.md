@@ -21,7 +21,7 @@ Follow these steps (in order) and enjoy !
 
 ### Accounts
 - [ ] Create a GitHub account and [learn how to use it](/StartingPackage/Tools#github)
-- [ ] Join the group calendar
+- [ ] Join the [group calendar](/StartingPackage/Tools#google-calendar)
 - [ ] [Join](/StartingPackage/Tools#mattermost) LKB-mattermost and Quantum-mattermost (and the channels inside) 
 - [ ] Create a [Zotero account](/StartingPackage/Tools#zotero) and join the LKB group
 ### Learning about science 

@@ -39,62 +39,62 @@ After you received all of your order, **you need to quickly bring the shipping l
 
 ### Go to a conference / summer school:
 
-1. Agreement from Alberto Bramati/ Quentin Glorieux
+**1**. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Apply for the mission
+**2**. Apply for the mission
 
-3. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
+**3**. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
 
-    Important infos to fill:
+Important infos to fill:
 
-        -- Credit/ Sources of funding (nom/n° de crédit)
+- Credit/ Sources of funding (nom/n° de crédit)
 
-        -- Your name (Nom - prénom)
+- Your name (Nom - prénom)
 
-        -- Destination of mission (Lieu de la mission)
+- Destination of mission (Lieu de la mission)
 
-        -- Object of mission (Objet)
+- Object of mission (Objet)
 
-        -- Departure time (Départ de Paris)
-            
+- Departure time (Départ de Paris)
+    
 
-        -- Transportation fees ()
-            plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
-            bus/metro/taxi tickets: Keep all the receipts for refunding
+- Transportation fees ()
+    plane tickets/ train tickets :  Bon de transport (through SIMBAD...)
+    bus/metro/taxi tickets: Keep all the receipts for refunding
 
-        -- Registration fee
+- Registration fee
 
-        -- Meals
+- Meals
 
-        -- Accomodation fee
+- Accomodation fee
 
-        -- Signature of Alberto / Quentin
+- Signature of Alberto / Quentin
 
-4. Give receipts and a list to secretary to claim for refunding
+**4**. Give receipts and a list to secretary to claim for refunding
 <a href="/file.pdf"> link name </a>
 
 
 
 ## Go on vacation:
 
-1. Agreement from Alberto Bramati/ Quentin Glorieux
+**1**. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Add on the Group Google Calendar:
+**2**. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
 
 
-3. CNRS member: add the days off on https://agate.cnrs.fr/
+**3**. CNRS member: add the days off on https://agate.cnrs.fr/
 
 ## Telework:
 
-1. Agreement from Alberto Bramati/ Quentin Glorieux
+**1**. Agreement from Alberto Bramati/ Quentin Glorieux
 
-2. Add on the Group Google Calendar:
+**2**. Add on the Group Google Calendar:
 
     Account: quantumoptics.lkb@gmail.com
 
 
-3. CNRS member: add the days for telework on https://agate.cnrs.fr/
+**3**. CNRS member: add the days for telework on https://agate.cnrs.fr/
 
 

@@ -61,6 +61,9 @@ In the polariton lab room we use gratings spectrometer to make dispersion measur
 <article-image src="StartingPackage/tools/spectro_grating.png" alt="Transit folder" size="100" :center="true"></article-image>
 
 For a good use of the spectrometer the most important point is to make the Fourier Transform of your beam at the entry of the spectrometer exactly where the slit is located. Then the two parabolic mirrors inside the spectometer make the image of the reciprocal space on the output camera. As you can see on the scheme, a diffraction grating is placed just before the camera in order to spatially separate the photons of differents energies. This final grating can be changed to get different dispersive capacitiese. The smaller is the grating step the more it is dispersive.
+#### Optical alignment
+
+To use the whole sensor of the output camera you should use the right lense to match the numerical aperture of the spectrometer. 
 
 
 

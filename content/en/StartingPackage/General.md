@@ -77,7 +77,7 @@ Important infos to fill:
 **5**. CNRS member: add the days off on https://agate.cnrs.fr/
 
 **6**. Give receipts and a list to secretary to claim for refunding
-<a href="/file.pdf"> link name </a>
+<a href="/template_reimbursment.odt"> link for template </a>
 
 
 

@@ -133,7 +133,9 @@ All Thorlabs devices that can be controlled through Kinesis/APT can be controlle
 
 
 
-#### **muquans**
+#### **Lasers**
+
+##### Muquans
 
 The lasers can be connected via an Ethernet cable to a computer network. They are identified with IP address and named them with mountain names:  
 IP: 192.168.1.107, Name: Shakhdag  
@@ -156,7 +158,7 @@ The code to turn off the pump is:
  ```   
   </code-block>
 
-#### **TA pro-Tapered Amplifier Laser System**
+##### Toptica
 
 The TA pro is a high power tunable diode laser product. It  can be operated via the digital control platform for example locking frequency intelligently.
  

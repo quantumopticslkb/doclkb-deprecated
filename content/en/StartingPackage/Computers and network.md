@@ -15,7 +15,7 @@ category: Tutorials
 
 | Name | IP | MAC |
 | --- | --- | --- |
-| Routeur (Netgear FVS318N) | 192.168.1.1 (admin/exciton) | --- |
+| Routeur (Netgear FVS318N) | 192.168.1.1 | --- |
 
 ## Computers 
 | Computer | IP | User | OS | MAC |

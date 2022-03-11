@@ -35,7 +35,7 @@ Then comes the tricky part ... You need to fill out every item in the file, tran
 
 After you received all of your order, **you need to quickly bring the shipping label to the administrative office** on the second floor in order to pay the seller ! If you do not do this, the lab can be **blacklisted** from certain suppliers that are tired of not getting paid ! This has already happened more than once and it is a penalty for the whole lab !
 
-If it's a on site service without shipping label, fill the form (<pdf-link src="Attestation_de_livraison_CNRS.pdf" label="Attestation de livraison CNRS" > </pdf-link>) and give it to secretary for paying the service.
+If it's a on site service without shipping label, fill the form ( <pdf-link src="AttestationdelivraisonCNRS.pdf" label="Attestation de livraison CNRS" > </pdf-link> ) and give it to secretary for paying the service.
 
 ## "Ordres de mission" / Missions
 
@@ -79,7 +79,7 @@ Important infos to fill:
 **5**. CNRS member: add the days off on https://agate.cnrs.fr/
 
 **6**. Give receipts and a list to secretary to claim for refunding
-<pdf-link src="template_reimbursment.odt" label="Link for template" > </pdf-link>
+<pdf-link src="templatereimbursment.odt" label="Link for template" > </pdf-link>
 
 
 

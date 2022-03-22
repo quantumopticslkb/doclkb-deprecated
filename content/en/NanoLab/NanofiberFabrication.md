@@ -7,6 +7,70 @@ category: Nano lab
 ## Nanofiber profile calculation
 <alert type="info"> In order to achieve lossless transmission, the profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium*. </alert>
 
+## Software and Pulling Setup initialization
+
+In this section the main steps for initializing the pulling setup and its software controls will be described. 
+
+1. Turn on the computer! **:D**
+
+2. The pulling setup needs several softwares to control all the different hardware parts. Open the softwares in the order they are named in this tutorial, to ensure that everything works smooth. The first software to run is **Spyder**, to launch the UI for controlling and monitoring the procedure.
+    
+    *insert spyder logo*
+
+3. Once the software is launched, run the following commands in the ```console``` *individually*:
+    <code-block label="Python">
+    ```python
+    import sys
+    sys.path.append('DIRECTORY TBA')
+    runfile('PATH TO PULLING INTERFACE TBA')
+    ```
+    </code-block>
+    <alert type='warning'>
+    When launching the interface, after the last command, pay attention to the feedback from the console. It happens often that one of the motors (in particular, the one moving up and down the brushing flame) can't establish a connection with the software. 
+    If the connection is established, the message *1 APT motor connected* followed by a ID number will be displayed. If not, please close the software, unplug and plug again the cable connecting the motor to the computer, and run again the commands in the *console*. It will eventually connect and the correct message will be displayed during the UI launch.
+    </alert>
+
+4. After the UI is launched correctly, open **Mozilla Firefox** and then click on the **XPS** bookmark on the bookmark toolbar.
+    *Image will be added*
+
+5. Insert the correct ```Username``` and ```Password```. Ask for the credentials to one of your lab colleagues. Usually, the credentials should be already saved on the page.
+
+6. After logging in, the following interface will appear. Locate the ```move``` label on the toolbar at the top of the page and click on it.
+   *Image will be added*
+    <alert type='warning'>
+    aaaaa
+    </alert>
+
+7. After the previous steps, the connection with the motors (one to move the brushing flame, connected via Spyder, and two to pull the fiber, connected via the procedure in *steps 4-6*). At this step, we can go back to the UI opened after *step 3*.
+    <alert type='info'>
+    Verify that the check-boxes *APT Connect* and *XPS Connect* are checked at the top of the UI window!
+    </alert>
+
+8. Verify the pulling motors connection by clicking on the ```HOME``` button. The motors will rapidly move at their home position.
+
+9. Move the motors to the proper position to start the pulling procedure, by clicking on the ```INIT Position``` button. The motors will move close to each other, at the right position to ensure that the flame is positioned at the center between the two motors. By default from a previous calibration, these position are preloaded in the UI software and they are **-49** for the *Left* motor and **-28** for the *Right* one.
+
+10. Verify that the fiber-flame distance written in the UI box is **0.9**.
+
+11. Verify the jog step is set at **0.1** in the UI box. The jogging refers to the up and down movement of the flame during the pulling process. This point will be recalled in the *Fabrication* section.
+
+12. Load the pulling profile calculated in the *Nanofiber profile calculation* section. Commonly used profiles are already available in the computer storage, in the ```D://``` volume. For example, nanofibers fabricated in the framework of the NanoBright European Project are pulled using the profile available in ```D:/Tirage/780HP/07_Dec_2020_10h27-PUTM-rw180-Lw3-L00.43.txt```.
+
+## Startup of the Hydrogen and Oxygen generators, flame control
+
+The heat and brush pulling procedure to fabricate the nanofibers exploits a oxyhydrogen flame (obtained by a mixture of gaseous hydrogen and oxygen with a precise ratio). In this section, the correct procedure to turn on and to start up the generators, as well as the softwares to control the fluxes, will be described.
+
+1. Open the oxygen cylinder valve (the cylinder with the red valve on the right of the pulling setup hood).
+
+2. Turn on the hydrogen generator, under the pulling setup hood, by pressing the ON/OFF switch located on the rear part of the generator.
+    <alert type='warning'>
+    ATTENTION! Pay a lot of attention if any warning or error is reported during the generator warming up procedure. If ANY warning is reported, quickly check the generator manual at the following path, checking the reported warning code.
+    </alert>
+    ```MANUAL ADDRESS TO BE ADDED```
+
+## THESE PART HAVE BEEN WRITTEN ON THE 22nd of March 2022. RESUME FROM HERE. AB
+
+
 ## Fabrication
 
  <alert type="info"> Tapered optical nanofiber is fabricated with "heat and pull" method. </alert>

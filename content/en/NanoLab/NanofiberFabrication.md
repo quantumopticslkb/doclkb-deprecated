@@ -1,11 +1,15 @@
 ---
 title: Nanofiber Fabrication
 description: 'Experiment notebook'
-position: 1
+position: 2
 category: Nano lab
 ---
 ## Nanofiber profile calculation
-<alert type="info"> In order to achieve lossless transmission, the profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium*. </alert>
+<alert type="info"> The profile of tapered optical nanofiber needs to meet the so-called *adiabatic criterium* so that the incoming modes will transit from a core-cladding waveguide to a core-vacuum waveguide losslessly. </alert>
+
+A tapered optical nanofiber includes three main regions: standard single mode fiber, fiber taper and nanofiber.
+The first step is to calculate the nanofiber diameter meeting the experimental requirements.
+
 
 ## Software and Pulling Setup initialization
 
@@ -91,6 +95,8 @@ The center of the flame needs to be aligned with the fiber based on the focus pl
 
 The transmission is detected with a photodiode, as shown in Fig. \ref{fig:Fiber_tapering_system}, and recorded.
 The output signal is normalized to the initial laser power before pulling.
+
+<article-image src="NanoLab/image841.png" alt="Setup" size="80" :center="true"></article-image>
 
 <alert type="warning"> During the pulling, the hot air from the flame will slowly lift the nanofiber since the weight of the fiber region on top of the flame drops.
 It is critical because the distance between flame and the fiber becomes larger than the setting.

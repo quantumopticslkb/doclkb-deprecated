@@ -28,7 +28,7 @@ The email must feature the info
 - Description : Brand / model / operating system :
 - Date of end of contract (for personnal portable computers only) :
 
-**It's plain and simple, either you provide all this info at once or the IT services will joyfully be a pain.**
+ <alert type="warning"> It's plain and simple, either you provide all this info at once or the IT services will joyfully be a pain. </alert>
 
 
 ## Map a Network drive

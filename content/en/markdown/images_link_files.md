@@ -50,12 +50,12 @@ The path is relative to the /content/en/ folder
 
 <pdf-link src="PDFvide.pdf" label="My label" > </pdf-link>
 
-<a href="/PDFvide.pdf" download="">Download</a>
+<a href="/pdf/PDFvide.pdf" download="">Download</a>
 
 ```md
 <pdf-link src="PDFvide.pdf" label="My label" > </pdf-link>
 ```
-Put the file in the ```/static/pdf/``` \
-The path is relative to the ```/static/pdf/``` folder (even if its a .doc, .xls .whatever)
+Put the file in the ```/static/``` \
+The path is relative to the ```/static/``` folder (even if its a .doc, .xls .whatever)
 
 

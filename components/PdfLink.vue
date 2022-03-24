@@ -16,7 +16,7 @@ export default {
   },
   computed: {
     pdfSrc() {
-        return "/_nuxt/assets/pdf/" + this.src
+        return "/pdf/" + this.src
       }
     },
 }

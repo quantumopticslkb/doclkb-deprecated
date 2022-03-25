@@ -1,7 +1,7 @@
 ---
 title: Cluster computation
 description: 'Instructions to compute with Roland cluster.'
-position: 10
+position: 2
 category: Polariton Lab
 menuTitle: Cluster computation
 ---

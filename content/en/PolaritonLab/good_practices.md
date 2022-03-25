@@ -1,7 +1,7 @@
 ---
 title: Good practices in the lab room.
 description: ''
-position: 3
+position: 2
 category: Polariton Lab
 menuTitle: Good practice
 ---

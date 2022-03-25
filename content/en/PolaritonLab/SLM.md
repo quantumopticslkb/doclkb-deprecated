@@ -1,12 +1,12 @@
 ---
 title: Beam reshaping  
 description: ''
-position: 4
+position: 2
 category: Polariton Lab
 ---
 
-# Considerations
+## Considerations
 
-# SLMs in the polariton room
+### SLMs in the polariton room
 
 # Beam reshaping technique

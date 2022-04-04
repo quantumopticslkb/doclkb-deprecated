@@ -78,18 +78,18 @@ In the working directory type the command line :
 
 If it's the first time you use VSCode with your github account it may ask you to configure your git user.name and user.email. The following command lines should work for any OS :
 
-<code-block label="Bash" active>
+
 
   ```bash
   git config --global user.name "FIRST_NAME LAST_NAME"
   ```
-  </code-block>
-  <code-block label="Bash" active>
+
+
+
   ```bash
   git config --global user.email "MY_NAME@example.com"
   ```
 
-</code-block>
 
 *The user.name and the user.email don't have to be identical to the user name and the email you used te create your github account.*
 

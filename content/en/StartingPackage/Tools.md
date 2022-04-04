@@ -16,6 +16,7 @@ Mattermost is our social network. It will allows you to talk with the other team
 The private server used by the team is: http://ultratrail.lkb.upmc.fr. But to be able to connect on the **EQ15B** server you have 2 solutions : be connected on the LKB network or you can use the VPN given by the lab (if you don't have access to it please contact support@lkb.upmc.fr).    
 Then your username will be the same as sogo, same for the password.  
 Also you can have acces to a comon LKB server: https://mattermost.lkb.upmc.fr.  
+To register copy this link: https://mattermost.lkb.upmc.fr/signup_user_complete/?id=r135spqsbinntcbmpfg9idw5mh
 In addition, this mattermost server allows us to use it as a lab book. Indeed Focalboard is the place where everyone can have their personal calendar and write their lab book.  
 It allows you to write down what you have or are going to do and frame your data with explanations. It is a very powerful and useful tool. The lab book should be your legacy for newcomers.  
 There is however an option to name notion on which mattermost has heavily plagiarized and which will be personal.

@@ -4,7 +4,7 @@ description: 'The first steps when you arrive'
 position: 1
 ---
 <alert type="success">
-Follow these steps (in order) and enjoy !
+Follow these steps (in order) and enjoy !!
 </alert>
 
 ### Admin

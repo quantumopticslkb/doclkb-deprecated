@@ -45,7 +45,9 @@ If it's a on site service without shipping label, fill the form ( <pdf-link src=
 
 **2**. Apply for the mission
 
-**3**. Fill "Ordre de mission" (take a paper version from secretary or download from this <pdf-link src="Etat-de-frais_missions CNRS 01-03-2022.pdf" label="Link" > </pdf-link>
+**3**. Fill "Ordre de mission" (take a paper version from secretary or download from this [link](https://intranet.lkb.upmc.fr/wp-content/uploads/2019/10/Demande_ORDRE_DE_MISSION_LKB_2016.docx) )
+
+
 
 Important infos to fill:
 
@@ -80,6 +82,7 @@ Important infos to fill:
 
 **6**. Give receipts and a list to secretary to claim for refunding
 <pdf-link src="templatereimbursment.odt" label="Link for template" > </pdf-link>
+**IMPORTANT**: when you come back, you need to fill  <pdf-link src="Etat-de-frais_missions CNRS 01-03-2022.pdf" label="this form" > </pdf-link>
 
 
 

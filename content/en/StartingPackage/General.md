@@ -69,7 +69,7 @@ Important infos to fill:
 
 - Meals
 
-- Accomodation fee
+- Accomodation fee (if Sorbonne Money use : https://w1.traveldoo.com/TraveldooSite/LaunchPortalGLOB.jsp with login NOM.PRENOM/SORBONNE
 
 - Signature of Alberto / Quentin
 
